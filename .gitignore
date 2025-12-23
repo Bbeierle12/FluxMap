@@ -1,0 +1,19 @@
+# Build outputs
+bin/
+obj/
+dist/
+installer/obj/
+
+# Logs and databases
+*.log
+*.db
+*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vs/
+.idea/
+.vscode/
