@@ -1,0 +1,1331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="INSTALLFOLDER">
+            <Component Id="DESK_cmp9B28032C37E16B28FD1E09F2B2637195" Guid="{F9768629-4578-4626-AA9B-19AE7425DF55}">
+                <File Id="DESK_fil5DB151349E04F3E95A05E5CAC97DDF1C" KeyPath="yes" Source="$(var.DesktopDir)\AngleSharp.dll" />
+            </Component>
+            <Component Id="DESK_cmp269D78649FD9F330C5C591512326A7FF" Guid="{8A29FA10-A0F7-4AA5-BEB6-6531EBFBAFE7}">
+                <File Id="DESK_filE112EAA7BB8AB4BA3E56159E0DDCC58E" KeyPath="yes" Source="$(var.DesktopDir)\CommunityToolkit.Mvvm.dll" />
+            </Component>
+            <Component Id="DESK_cmpAED255B9519732184DE0D532AED15063" Guid="{F62BEEBF-FD64-4875-A5E1-D54B5168953C}">
+                <File Id="DESK_filDA1DB6B53B20E7733ADDAA79454B508D" KeyPath="yes" Source="$(var.DesktopDir)\CoreMessagingXP.dll" />
+            </Component>
+            <Component Id="DESK_cmp526FB3AE9C1B64725F95EA823EE0E71D" Guid="{F1526745-96A5-4E1F-A42C-4C47AD0C236C}">
+                <File Id="DESK_fil1152037CE63950596D29DA05425982B6" KeyPath="yes" Source="$(var.DesktopDir)\dcompi.dll" />
+            </Component>
+            <Component Id="DESK_cmpF595040057839ADF2721ADD93A6E0267" Guid="{FD046E4B-8E68-47CF-9C7F-0ABCAEFD5372}">
+                <File Id="DESK_fil43D4FDF2079AD1085078F2D3FF656E5A" KeyPath="yes" Source="$(var.DesktopDir)\dwmcorei.dll" />
+            </Component>
+            <Component Id="DESK_cmp1BB38A11730AE945B02AA1BFAF28A30B" Guid="{04941126-9DFF-4D84-B311-E65B675B0076}">
+                <File Id="DESK_fil034C519B34D136AF199B8C756C2FAE81" KeyPath="yes" Source="$(var.DesktopDir)\DwmSceneI.dll" />
+            </Component>
+            <Component Id="DESK_cmp657A4267560BB8EC2FA402C0B9B899E5" Guid="{FBDF2540-74C3-44F7-AA82-91C9AA9E208A}">
+                <File Id="DESK_fil329ABFB8B9127566DAF829AAE9DD54BE" KeyPath="yes" Source="$(var.DesktopDir)\DWriteCore.dll" />
+            </Component>
+            <Component Id="DESK_cmpBB069E2A013205539A5DD69F77BF4C22" Guid="{C7E09B7B-053C-43FB-8DA8-08187BCA6765}">
+                <File Id="DESK_fil35DBD7C04C085C4CF7B7D4041B578103" KeyPath="yes" Source="$(var.DesktopDir)\LiteDB.dll" />
+            </Component>
+            <Component Id="DESK_cmpBB9D3ED17127492F89E958831A3A02ED" Guid="{953594B3-B1FA-4CFF-BEA3-40047FA24608}">
+                <File Id="DESK_fil9BEE35ABBA46C5AB7C9CDA4C5B4F1045" KeyPath="yes" Source="$(var.DesktopDir)\marshal.dll" />
+            </Component>
+            <Component Id="DESK_cmp2F0A313AE6306F9CE5E760AF214DC789" Guid="{E8D1FC6C-AD2E-4FCF-924E-16883212121F}">
+                <File Id="DESK_fil274A60BD8B17A2DA6C1EB35AEA850F12" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.AspNetCore.Authorization.dll" />
+            </Component>
+            <Component Id="DESK_cmp6D6CC90C40E2F632C9128346BA7F188F" Guid="{10101396-D72E-40EF-A52A-D76E39144382}">
+                <File Id="DESK_filB3A561B406C5673062D93CEAB4C5FBA3" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.AspNetCore.Components.dll" />
+            </Component>
+            <Component Id="DESK_cmpA76C6CFFA9DCB201D0EEDB226B0B9E25" Guid="{A168719E-44A9-489B-BF54-547DDD4B868B}">
+                <File Id="DESK_fil509B74670E6E3BBFDDC3F98EFB8E8C1D" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.AspNetCore.Components.Forms.dll" />
+            </Component>
+            <Component Id="DESK_cmp17959BADF0C2D7B7AB4867F09DA031B8" Guid="{6EDEC335-84A3-45E4-AB75-4D53B00770D3}">
+                <File Id="DESK_filBCB8CB727FBD0C042A3E896A50A0013A" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.AspNetCore.Components.Web.dll" />
+            </Component>
+            <Component Id="DESK_cmp3D2A78302A6149F7464B0EDCD758BCCF" Guid="{940AEFFB-4E01-4EE3-8CBE-252F83005671}">
+                <File Id="DESK_fil448E35B6B4567F45DB8A9C0D588396AC" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.AspNetCore.Metadata.dll" />
+            </Component>
+            <Component Id="DESK_cmp06F5AE1888C956EB1EAE32EF65C65864" Guid="{EA73ACD9-5AA5-4CBE-8800-4A4C62DAA87D}">
+                <File Id="DESK_filC0DBC99C91B25EE1312AF804CEA22B36" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.DirectManipulation.dll" />
+            </Component>
+            <Component Id="DESK_cmp198468A4AE980CD6955CB6EB86083726" Guid="{84DD13D5-CEBD-459F-848B-A6856F882E10}">
+                <File Id="DESK_fil02E4E4D119BFC4831CEA5A71F1288443" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+            </Component>
+            <Component Id="DESK_cmp25768D16C389D597AAEEEC4559EF8164" Guid="{4641D946-4DD1-4ACE-9320-9FB7514A1AED}">
+                <File Id="DESK_fil853E8C61B1429C462C134945E9565724" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Extensions.Localization.Abstractions.dll" />
+            </Component>
+            <Component Id="DESK_cmp2B9CD9DFD4B220B2D29045D1868F2446" Guid="{EC9D2B1E-562E-44C6-A076-9B9576BF3B34}">
+                <File Id="DESK_filC75656BA315CE7FC3381EEA86F6799D8" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Extensions.Localization.dll" />
+            </Component>
+            <Component Id="DESK_cmp8C674FD6A69988A60A77A4CEE0F53781" Guid="{C2482059-F6F3-4320-B568-F52E26A70141}">
+                <File Id="DESK_fil72342637E9F74EE945317D4603CEBA2F" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Extensions.Logging.Abstractions.dll" />
+            </Component>
+            <Component Id="DESK_cmp3279C150AE8DF554FD7EEE2085672A2B" Guid="{5CC77938-2E7E-432A-94E8-9A1C5BC9B4F6}">
+                <File Id="DESK_filA8D1F5D61FD7BC25099F707CBF5B1F24" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Extensions.Options.dll" />
+            </Component>
+            <Component Id="DESK_cmpFAFA1E76C3FCC6B03C2356B7EAD0DBDB" Guid="{354CE66A-7AAC-4326-8B4B-C6EE1055F3B9}">
+                <File Id="DESK_fil5F611B3DB72A8AAA855C479B0BD1ED00" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Foundation.winmd" />
+            </Component>
+            <Component Id="DESK_cmp25B86A80BEC1AEF7AD361EB3D6BD6A4B" Guid="{8A316AF9-5E0A-4259-AA59-D9F2CCB47412}">
+                <File Id="DESK_filF131946431E17CB06485F4A346CFD683" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Graphics.Display.dll" />
+            </Component>
+            <Component Id="DESK_cmpD9D87FA54509AB188B8C3924AF6E3A03" Guid="{DFF54BA3-C4AF-4E86-84C0-67C02214A939}">
+                <File Id="DESK_filD450C473C81D3B3903421450D60238EA" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Graphics.winmd" />
+            </Component>
+            <Component Id="DESK_cmp5D3FA887F5136E46E491F65D9C5460ED" Guid="{3BA3DB3D-8753-4243-8302-E16BFCCC41EE}">
+                <File Id="DESK_fil6ACC3587ED720D6993DDC661145F805F" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.InputStateManager.dll" />
+            </Component>
+            <Component Id="DESK_cmp6D16CC6E020D35989F1BBCF1C1C368C6" Guid="{9ABCA475-AB95-42AF-9F3B-2DCD6B12D406}">
+                <File Id="DESK_filEE2072FD7166119BFCA5E6B5A4BC0977" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.InteractiveExperiences.Projection.dll" />
+            </Component>
+            <Component Id="DESK_cmp0839A40C3843F519D68B0BD054EBF7C1" Guid="{45DAAE51-5DE7-41FB-B76B-1C235838DD9D}">
+                <File Id="DESK_filFF44E6CF5E3BB9D0E37CC55D84C6A11A" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Internal.FrameworkUdk.dll" />
+            </Component>
+            <Component Id="DESK_cmpDB4717CBBFD23A9652DB5B136ABB5D75" Guid="{D8AE0454-C1D2-44E4-8584-B8C636459C7A}">
+                <File Id="DESK_filD208251EAF74D3D9FCA9A0D020CF9631" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.JSInterop.dll" />
+            </Component>
+            <Component Id="DESK_cmp524AB317E1F1E1446096141977034717" Guid="{812C4821-536F-4FAB-9776-B734B2BA19E3}">
+                <File Id="DESK_fil210E0EE285655534A36E8B7EE7381E9B" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.UI.Composition.OSSupport.dll" />
+            </Component>
+            <Component Id="DESK_cmp6809350ECDB46F5B037F2E67E18CD907" Guid="{85BF8C66-98AC-4008-A978-7A10344FAD2F}">
+                <File Id="DESK_fil10D8A12C871AF434B73FEC47EBE16D4C" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.UI.dll" />
+            </Component>
+            <Component Id="DESK_cmpC56A435CDB1A8C5DC24A5EE08CF973F1" Guid="{AED1F729-D264-43ED-9595-F1494CBE091B}">
+                <File Id="DESK_fil8DB60962DCF609DE97AF466CC2DC313A" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.UI.Input.dll" />
+            </Component>
+            <Component Id="DESK_cmp9EC4F7205246708AF18C6E38A1471159" Guid="{0FFEFCD9-4E8F-481A-8FBC-494D5E0B6B49}">
+                <File Id="DESK_filD63A807E7F545E3A4716C9F08064E69F" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.UI.Text.winmd" />
+            </Component>
+            <Component Id="DESK_cmpBD548B11860471AACE9BFBE0A66DF4CC" Guid="{4CBD3B70-4E8D-4FA2-AF2E-6D53A8EC2402}">
+                <File Id="DESK_fil099F6D554EE0B0A13FACBDF18C5A654E" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.UI.Windowing.Core.dll" />
+            </Component>
+            <Component Id="DESK_cmp50D0D033DDF559CE3530D7E6A6B100F1" Guid="{70E8448D-7F15-45B0-AFD5-D931B616C852}">
+                <File Id="DESK_filC097509C927AC56108848E2263AA7F31" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.UI.Windowing.dll" />
+            </Component>
+            <Component Id="DESK_cmp47365E3063F6CD32D2934B4B74B36C93" Guid="{6EA4A0A3-2F57-4D3E-AA34-6F1FD5D651B8}">
+                <File Id="DESK_fil59E77C0E71F3DF322F0ACDD5FF05AD58" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.UI.winmd" />
+            </Component>
+            <Component Id="DESK_cmp70E28C3AAE545DFF3A440D53E188B72C" Guid="{FD4AD3C4-98A2-4FB4-B9F5-963C4B9FBEA1}">
+                <File Id="DESK_fil73E9024A3E7878254429F629CCEDADE8" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.UI.Xaml.Controls.dll" />
+            </Component>
+            <Component Id="DESK_cmp762DA720D2D995D5712BA9CCDD3773BB" Guid="{67092DBD-9362-40E7-825A-3E5904A9E135}">
+                <File Id="DESK_fil36C2A47DCAAABB64347FBE5811BC6947" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.UI.Xaml.Controls.pri" />
+            </Component>
+            <Component Id="DESK_cmpA9D8D1D3751B36300BE0AD48A8574775" Guid="{81DAFC91-C0EA-403E-9A08-C30D3CD66EAA}">
+                <File Id="DESK_fil5F8446D4678F6AF100904EC0512845FE" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.ui.xaml.dll" />
+            </Component>
+            <Component Id="DESK_cmp734794FF3E2B890369FC6F61ABF969DA" Guid="{EB54B266-F3A5-4984-A2A0-CFF30FD405E2}">
+                <File Id="DESK_fil1803C19470BF8C02B8F0A225D9FAC76F" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.UI.Xaml.Internal.dll" />
+            </Component>
+            <Component Id="DESK_cmp9300BC0EDB0F33E79D9C73185929722F" Guid="{C4AEA4BC-8DC1-48B2-865F-C4218C07042E}">
+                <File Id="DESK_fil2FE407292157B0BF73B8A03C03BAEEFC" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.UI.Xaml.Phone.dll" />
+            </Component>
+            <Component Id="DESK_cmpDFE3ED7A6C8AD7262EB265F149451E4D" Guid="{7590323A-0ADF-4303-BEA6-01C39ACA3BFE}">
+                <File Id="DESK_filE3D0E2A4CF0D6DC64079FB8B653CEACD" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.ui.xaml.resources.19h1.dll" />
+            </Component>
+            <Component Id="DESK_cmp79BED09A11BCFA2959BEAAAE0E80DBCF" Guid="{35026A12-CC9F-4C54-B535-D88E2B224D24}">
+                <File Id="DESK_fil1F6D3999AEF71AE49F6787ADE7F394AD" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.ui.xaml.resources.common.dll" />
+            </Component>
+            <Component Id="DESK_cmpA4D84A707FC5521D786B31BCA5FA175A" Guid="{08586C20-C6B8-48CF-8CAF-CE8584ADAD42}">
+                <File Id="DESK_fil35C624BC456595671BA9A46016A58A63" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.UI.Xaml.winmd" />
+            </Component>
+            <Component Id="DESK_cmp57D856C08E480EBC080FF86FAEB1DDA3" Guid="{84091AE3-E4FE-4DAF-8548-9AC1BF84091A}">
+                <File Id="DESK_fil75A9AC5DE23858DE4AD4EE64AEAE4B4A" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Web.WebView2.Core.dll" />
+            </Component>
+            <Component Id="DESK_cmp6C222876D8128B51B24D36D317A7265C" Guid="{4042AF71-44A0-4FE2-97F3-FFC42FE0D279}">
+                <File Id="DESK_fil861579C4C686D3BB1B991A419D5C0AB8" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Web.WebView2.Core.winmd" />
+            </Component>
+            <Component Id="DESK_cmp3B4A4E68A8916F10E057C64DCC9101A2" Guid="{71D91521-4BF4-4C40-B03B-25E4A2768296}">
+                <File Id="DESK_fil00C67A68048660876465DF77E74AA2EA" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll" />
+            </Component>
+            <Component Id="DESK_cmpBEAF94964CE45A7FC21FE61ABFD9BF61" Guid="{6A6D389F-EB23-4691-A0CC-F6F6A59CB068}">
+                <File Id="DESK_filCCA660CF0913419D694D55EB8272F00F" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.ApplicationModel.DynamicDependency.winmd" />
+            </Component>
+            <Component Id="DESK_cmp29ED12E754D8E78AB1F1768864892A6B" Guid="{FA52F658-3182-4626-A9FC-1803E70B40B0}">
+                <File Id="DESK_filCE04402B3027CC4EDF2CAB2A1462DDBD" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.ApplicationModel.Resources.dll" />
+            </Component>
+            <Component Id="DESK_cmpFC40A96231D4742B46282E916A215F18" Guid="{74231F40-495A-4974-A9C7-E779C9BB5ACD}">
+                <File Id="DESK_fil3237DCFAA63907B2318F549BBB41C194" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.ApplicationModel.Resources.Projection.dll" />
+            </Component>
+            <Component Id="DESK_cmp391A5EE3312408C56A3CCB4C685E9542" Guid="{6E4D3283-D3AB-4250-BE7A-3EF3C2BC5196}">
+                <File Id="DESK_fil1FDBD39641A5812F8223D84F3BF2A427" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.ApplicationModel.Resources.winmd" />
+            </Component>
+            <Component Id="DESK_cmpBE11DC195E68C4B61A03D5E224F6E301" Guid="{7C28E275-F99C-4FFA-8CB2-AFEE1452F116}">
+                <File Id="DESK_filDA12B686B7F76B111AC9C08FB6EAAD94" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll" />
+            </Component>
+            <Component Id="DESK_cmp51410DCEF2055A404C1271320BAD8EB5" Guid="{B4DE9F6C-DA94-4F4D-BBB9-A2870FD01105}">
+                <File Id="DESK_fil347DC2D2C3F8F5B9FBD5452CF14B0CAC" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.winmd" />
+            </Component>
+            <Component Id="DESK_cmpAD6AC2F951F30234C560193BED5CE3FF" Guid="{0147C744-94A9-4525-9275-4528DFED6604}">
+                <File Id="DESK_filB8E03F08DEE96DB0E7FA870DF8250C23" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.AppLifecycle.Projection.dll" />
+            </Component>
+            <Component Id="DESK_cmp2A2D8EE38C7FD5C54943A5F9EBC9DC93" Guid="{988E41BD-9EDA-4663-82E7-AFB8F8B19416}">
+                <File Id="DESK_fil567431F862A8336F4D1A394C3BAF6069" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.AppLifecycle.winmd" />
+            </Component>
+            <Component Id="DESK_cmp5369D906DD3FAD70F06836F495C2C16A" Guid="{28FE3637-5A74-4C98-8E99-04611178644E}">
+                <File Id="DESK_fil9D52098F4B3EF340183A029B96D649C0" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.AppNotifications.Builder.Projection.dll" />
+            </Component>
+            <Component Id="DESK_cmp631491BE114A9AED227FD3DD956FFCA5" Guid="{4A80CE1F-8163-4EC1-AAF9-4DB0B3B56E51}">
+                <File Id="DESK_fil692C8E83B1B365A2794E2A5FE0955244" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.AppNotifications.Builder.winmd" />
+            </Component>
+            <Component Id="DESK_cmpF18AC71FC2BB5B87372410046807D67F" Guid="{849993DD-EB9A-4873-9150-F1AED43E4141}">
+                <File Id="DESK_fil8E0D5D66FA479B0C0D48B125B868EDA2" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.AppNotifications.Projection.dll" />
+            </Component>
+            <Component Id="DESK_cmpE106E4D2EB2AA8C92BD03751102EC8EA" Guid="{9E8C1452-13C8-4BFB-A027-165BA7EA1D3F}">
+                <File Id="DESK_fil8F077CAC8406223CCB8C363522BAA5C7" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.AppNotifications.winmd" />
+            </Component>
+            <Component Id="DESK_cmp0D0EA73969C24AFE63E87AD85696F4C9" Guid="{F655C815-E7B3-4480-928B-7DD7FD229B2C}">
+                <File Id="DESK_filEF2EFF72AE5969DB6F645840119EB3A0" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.Management.Deployment.Projection.dll" />
+            </Component>
+            <Component Id="DESK_cmp8B21769FB0FD5CBD7787BCDA0D0A35A4" Guid="{ED854899-2C64-435A-B019-722E41235408}">
+                <File Id="DESK_fil2027CD3404D916E58006EE8840C659A7" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.Management.Deployment.winmd" />
+            </Component>
+            <Component Id="DESK_cmpAC3239EC74C647D5D74BD36CAA4F64EB" Guid="{F37EF1EA-9051-481A-B044-84B62822C014}">
+                <File Id="DESK_filEB4E739B97014F310DF98893898C15C7" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.PushNotifications.Projection.dll" />
+            </Component>
+            <Component Id="DESK_cmp0D8669A437D61758FD4375C71D74ABD4" Guid="{802FD8C2-7A08-4FDC-B3D6-CE14F60501FB}">
+                <File Id="DESK_fil9FEDF678DBC912986DCF272B7DD071AF" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.PushNotifications.winmd" />
+            </Component>
+            <Component Id="DESK_cmp5A07035FA52F4F9E1424BE35CC16915F" Guid="{91C51B5D-0FD0-4299-8293-AE5AAF26F1A2}">
+                <File Id="DESK_fil72C197D43EC7996E816CEB4279B7388C" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.SDK.NET.dll" />
+            </Component>
+            <Component Id="DESK_cmpF29968FE27EC9EB4CD5EA07B32B5F62E" Guid="{80C91C42-6A26-4D13-BD0E-1FDA95669F3A}">
+                <File Id="DESK_filFEB9B141B17351F4FADACA41DC2CD480" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.Security.AccessControl.Projection.dll" />
+            </Component>
+            <Component Id="DESK_cmp5AEB840F1CC14A9160245DD47A8A582F" Guid="{9F074F5C-81D9-4CDA-B131-E7E949A667AB}">
+                <File Id="DESK_fil46A5D8EC99818B2786959738F40E548E" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.Security.AccessControl.winmd" />
+            </Component>
+            <Component Id="DESK_cmpC09E619A9E5EE4338C7192F704A1FBAE" Guid="{2402B773-AD38-4664-997B-757F858A7581}">
+                <File Id="DESK_filBC9868F214E54FE5030066203478B58B" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.System.Power.Projection.dll" />
+            </Component>
+            <Component Id="DESK_cmp63CF5AF0BB00F9F7BAAD865ED057A08B" Guid="{7EB34382-B81F-4D8F-89CE-20A7E7328C47}">
+                <File Id="DESK_fil4F47AEA2194276ED141C29DB6114096D" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.System.Power.winmd" />
+            </Component>
+            <Component Id="DESK_cmp317E2A7342DA4CA080CB2B73EE07FCFE" Guid="{E6A75309-26A6-47FE-9766-941B5B959940}">
+                <File Id="DESK_fil0189B600527C391BB5CE16844822306C" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.System.Projection.dll" />
+            </Component>
+            <Component Id="DESK_cmp008E641F81C1729BF9BBAB88A7929F3C" Guid="{62ABE800-4ED3-4F87-90A2-3280971DF81A}">
+                <File Id="DESK_fil107D06DA87910DC5A1C4AD41EA88957F" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.System.winmd" />
+            </Component>
+            <Component Id="DESK_cmpFE6740F66021BBED8F590A81C66E97B9" Guid="{EF01C9A8-2EC3-43B7-9183-BDDF92718847}">
+                <File Id="DESK_fil1C64CCA8F4E0F24DD2F918E3563EACD7" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.Widgets.dll" />
+            </Component>
+            <Component Id="DESK_cmp45423C4C62D3C8FC96EFD3D6A8BDF2C0" Guid="{1EB328D6-7C75-4EB9-8183-5F99D6161E1B}">
+                <File Id="DESK_fil3A01C1BD23C7750B99BFC92148485D70" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.Widgets.Projection.dll" />
+            </Component>
+            <Component Id="DESK_cmpDFABF29E881FA70B4FC040404E97156A" Guid="{BA5FAF20-D4B3-46F3-886C-C90846381401}">
+                <File Id="DESK_fil508F78421C6AA21E544D64DE078C5686" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.Windows.Widgets.winmd" />
+            </Component>
+            <Component Id="DESK_cmp673A5FF45CDAFAAF147DD6FEC1DFB2DD" Guid="{26215031-8339-4C7F-A9DF-A892293FBD24}">
+                <File Id="DESK_fil9FD5615AFCA68FDD29802EABC7A02F8B" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.WindowsAppRuntime.Bootstrap.dll" />
+            </Component>
+            <Component Id="DESK_cmp65E35E1ECCB6C88CBA6C753F9B6EAD2C" Guid="{16E0EB84-F157-4503-B3B7-F097CCF5EE2F}">
+                <File Id="DESK_fil92B6A60392E325AF8AC5F2DDAD1E1947" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll" />
+            </Component>
+            <Component Id="DESK_cmp7805875504899DB1967EDA97584004B5" Guid="{ABEB2802-6ED1-4906-B0EF-AD1F2DA5B06A}">
+                <File Id="DESK_filB794ADE49A5793D05051947DBC8BFA89" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.WindowsAppRuntime.dll" />
+            </Component>
+            <Component Id="DESK_cmp612A0967963D6C1925C583B6DF75363B" Guid="{A7CD6F0E-148E-4444-AC8E-31167847C4A7}">
+                <File Id="DESK_fil49F9305585D0066DA1CA2E744BD04470" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.WindowsAppRuntime.Insights.Resource.dll" />
+            </Component>
+            <Component Id="DESK_cmp701FDBE630B5C6570F2B1304CC7E3E38" Guid="{03A11D98-3E0F-41D4-9EB9-C5EDB6FDD4F5}">
+                <File Id="DESK_filCFB36CCA71DD72B813AFE770280F0A2E" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.WinUI.dll" />
+            </Component>
+            <Component Id="DESK_cmp3B0A3686DEFAE476106730528914B274" Guid="{91FE1133-38D0-434E-922B-FE52A645A7AA}">
+                <File Id="DESK_filFA9CBE52BBA8609B5A722D0E9F13BB88" KeyPath="yes" Source="$(var.DesktopDir)\MRM.dll" />
+            </Component>
+            <Component Id="DESK_cmp882A4DB33B9BBD57468A37B1D98591B8" Guid="{35B23745-6FA5-4604-BCC1-19DEF83B219F}">
+                <File Id="DESK_fil8CA7CB797C2EB258E71E91B91DB49ACB" KeyPath="yes" Source="$(var.DesktopDir)\MudBlazor.dll" />
+            </Component>
+            <Component Id="DESK_cmp9466D0E0ABC39228F154935FF55515F6" Guid="{09A34E86-3E2B-4756-811B-669E384D9D1A}">
+                <File Id="DESK_fil93324889D3C04E3EF87E0ABB37A53C32" KeyPath="yes" Source="$(var.DesktopDir)\NetWatch.Desktop.deps.json" />
+            </Component>
+            <Component Id="DESK_cmpFBE5E60D0F1D5F1AB56F80168867AAFA" Guid="{1403DAD7-ED7D-48F3-906C-71924E3720C6}">
+                <File Id="DESK_fil0CFA7EA911A3E78632E180D99CB8C7AA" KeyPath="yes" Source="$(var.DesktopDir)\NetWatch.Desktop.dll" />
+            </Component>
+            <Component Id="DESK_cmpBB812C0FFB6C0D356ACF146599B8171B" Guid="{BA6AB88C-5D5C-4CDB-A998-6F2BF1F24F8E}">
+                <File Id="DESK_filC5CBCBE5BBAF6C858D4FB2E8FDA90DDD" KeyPath="yes" Source="$(var.DesktopDir)\NetWatch.Desktop.exe" />
+            </Component>
+            <Component Id="DESK_cmp07A663090B0A6DA88B596CABDCBA4A8A" Guid="{117A0355-733A-4865-804A-CFCA65724E7B}">
+                <File Id="DESK_fil0D23E281842FB0E8D8AC234C2025C1C7" KeyPath="yes" Source="$(var.DesktopDir)\NetWatch.Desktop.pdb" />
+            </Component>
+            <Component Id="DESK_cmp890502005621A4666364ABA6C9CCD72A" Guid="{F03C747C-2CFC-49CD-B93A-6C0835498D4D}">
+                <File Id="DESK_filEA9FA6F5115A86BE8082437B99A6FF4C" KeyPath="yes" Source="$(var.DesktopDir)\NetWatch.Desktop.runtimeconfig.json" />
+            </Component>
+            <Component Id="DESK_cmpB088F0C7E260E94E448DC48E0D4ACADB" Guid="{8BDC575C-5E25-4EE1-ACAB-78BC588F55A8}">
+                <File Id="DESK_fil2AD9C48ED906FCF04AA19EE16C659DE4" KeyPath="yes" Source="$(var.DesktopDir)\NetWatch.Desktop.staticwebassets.endpoints.json" />
+            </Component>
+            <Component Id="DESK_cmpBC4FC00A26E7D32479D42D3411317FC5" Guid="{97A90639-F0BA-4B73-B99F-3B0BB0A22D69}">
+                <File Id="DESK_fil90A8AAD9FC612906D405476D61CEA3F4" KeyPath="yes" Source="$(var.DesktopDir)\Newtonsoft.Json.dll" />
+            </Component>
+            <Component Id="DESK_cmpF15F86B2638D16FD271D966C7E11D202" Guid="{9606E694-8D61-4FCC-9BA0-5BBAF8DB42F0}">
+                <File Id="DESK_filF41A30CCF20055E16AF13A0105A5A59A" KeyPath="yes" Source="$(var.DesktopDir)\PushNotificationsLongRunningTask.ProxyStub.dll" />
+            </Component>
+            <Component Id="DESK_cmpF5F35ADDA8EDEB6AE2B73B7D51FF1DE5" Guid="{02CF4FBE-FE0E-4E8F-9EF4-D9096149370C}">
+                <File Id="DESK_filC259C807CBC050C9DFABCC6386744EEE" KeyPath="yes" Source="$(var.DesktopDir)\RestartAgent.exe" />
+            </Component>
+            <Component Id="DESK_cmp9D611B3720C088B5143B503607979EE1" Guid="{706C1048-91A1-4037-8C2E-0E9D24640E84}">
+                <File Id="DESK_filF2FC07097712020117EADD317353C87C" KeyPath="yes" Source="$(var.DesktopDir)\UtfUnknown.dll" />
+            </Component>
+            <Component Id="DESK_cmpD8955D1CF65AFD7709378BA54E68930E" Guid="{BBADB020-5CAE-4A6B-8631-88581B9457B6}">
+                <File Id="DESK_fil999DAD9A10A2C9842A73BC608D88D422" KeyPath="yes" Source="$(var.DesktopDir)\WindowsAppRuntime.png" />
+            </Component>
+            <Component Id="DESK_cmp147C5FF712F50251D2EFC5854C8B7C85" Guid="{F263198F-F31C-4DF2-BA44-C066C9ADF3F9}">
+                <File Id="DESK_fil81B52C86FF8D6C7EB008ACD7172F201C" KeyPath="yes" Source="$(var.DesktopDir)\WindowsAppSdk.AppxDeploymentExtensions.Desktop-EventLog-Instrumentation.dll" />
+            </Component>
+            <Component Id="DESK_cmp1A4E00432773E1807A73892E88F4713C" Guid="{C0CE7C6C-8B25-4FC4-B67C-E7D053078125}">
+                <File Id="DESK_filA0A4C770DD457AD80674563318D77A79" KeyPath="yes" Source="$(var.DesktopDir)\WindowsAppSdk.AppxDeploymentExtensions.Desktop.dll" />
+            </Component>
+            <Component Id="DESK_cmp33C30AAD37872CE4355CA33B0DDA2127" Guid="{FD3C1D21-28FA-4B69-AE70-4AECDB4C9829}">
+                <File Id="DESK_filEBB43C021EAE67A8D0F42ED495F441FF" KeyPath="yes" Source="$(var.DesktopDir)\WinRT.Runtime.dll" />
+            </Component>
+            <Component Id="DESK_cmp85EE906FAD27826E64B8BAB8C7AB79E5" Guid="{6E21A998-1414-4E26-9ADE-4B85012176D3}">
+                <File Id="DESK_filCAC00E97338ECDE7C3240A0DBD3D13FB" KeyPath="yes" Source="$(var.DesktopDir)\WinUIEdit.dll" />
+            </Component>
+            <Component Id="DESK_cmp4C2CC6B798D54B815104D4756261EE23" Guid="{67D91B6F-F9C0-4401-95E5-6F94D5DC42B2}">
+                <File Id="DESK_fil1209E49FAAB39CDA58172D81FFEB19C4" KeyPath="yes" Source="$(var.DesktopDir)\wuceffectsi.dll" />
+            </Component>
+            <Directory Id="DESK_dirB84F7735C3BA8CFE7C87319A7ABFCCB1" Name="af-ZA">
+                <Component Id="DESK_cmp68B65A61EF4876B66D25C42163CEFE73" Guid="{B5B6DDC4-6AC0-4EAC-AA10-75BB4C1F8ABD}">
+                    <File Id="DESK_fil849F64BBEBCE51CE8DE281D9C27D069A" KeyPath="yes" Source="$(var.DesktopDir)\af-ZA\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp7F3F9EACFCF0C3E228B9C6AD4D048F5B" Guid="{B1DC2A35-8097-42FE-9713-3E3ED8B392BC}">
+                    <File Id="DESK_fil8ACFE9465214CBFD47FD0D8D92BD7E0D" KeyPath="yes" Source="$(var.DesktopDir)\af-ZA\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirF0417B3FBD79927AF9027D1D4B4E70B8" Name="am-ET">
+                <Component Id="DESK_cmp9206F981BC72FAA8529454F6D5D03306" Guid="{95145961-1295-479E-8792-8E32BAFD5D10}">
+                    <File Id="DESK_fil77BA5A0451E9AFB34F08761F12EE5DBD" KeyPath="yes" Source="$(var.DesktopDir)\am-ET\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp2F576650BD3B33D2B9AFDD674C2C1818" Guid="{E197A05F-35B3-4384-AF52-FFD89C3EDF80}">
+                    <File Id="DESK_fil0707190DAAB71D65F23D007A0AEBC1C9" KeyPath="yes" Source="$(var.DesktopDir)\am-ET\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir342837CAF938E0C2A90493365ED5F6FA" Name="ar-SA">
+                <Component Id="DESK_cmpDF684F009BB39A9539952FC73FDB57DA" Guid="{5E9088E7-E212-40AB-B8FB-65983050E98D}">
+                    <File Id="DESK_fil350A16C65F09CCF9991E1A8050601B57" KeyPath="yes" Source="$(var.DesktopDir)\ar-SA\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpB7867CE535B3ADDFE80CA91FC2539D4D" Guid="{13BA64A9-A86C-45C6-B3F3-2C073388E600}">
+                    <File Id="DESK_fil547438D823B11EAF17157F794E497B90" KeyPath="yes" Source="$(var.DesktopDir)\ar-SA\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirA4C486D5AFEEE008BEF8EC9AA8A23740" Name="as-IN">
+                <Component Id="DESK_cmpA1711C7617051E43A032E9DCBDD227FC" Guid="{706FBEE0-A8EE-436E-91D0-8FF7333BD1BE}">
+                    <File Id="DESK_fil38106A6CB13B1E6439FDE189EB311566" KeyPath="yes" Source="$(var.DesktopDir)\as-IN\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp7463A7273BCC6C134931493A8B764342" Guid="{B7FA56EA-F05A-44D4-AFF5-978100544956}">
+                    <File Id="DESK_fil8D8920442F8F706440560FE38C2C80FD" KeyPath="yes" Source="$(var.DesktopDir)\as-IN\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir255FF5B8D788DF72079B7157C76CE356" Name="az-Latn-AZ">
+                <Component Id="DESK_cmpB90E2B38CF0AE373C2E61D5EA5B194C6" Guid="{B3EEF613-CDD8-477D-B2A4-54301A9EF9B5}">
+                    <File Id="DESK_filCD234FD6BEDB7D0FD548C651B51F41C0" KeyPath="yes" Source="$(var.DesktopDir)\az-Latn-AZ\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpAD0D33A670278D926DFB5A4164F2B5FC" Guid="{19C61497-02AA-4A7C-B426-DA0B3821A974}">
+                    <File Id="DESK_filBC5468461C6ACE2D2D9607A0E8D9DF20" KeyPath="yes" Source="$(var.DesktopDir)\az-Latn-AZ\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir0C7B9E61F936AA89A4F6224040C9932F" Name="bg-BG">
+                <Component Id="DESK_cmpBCAC19A34A834CDC5022D612A6D6BF46" Guid="{F7BB7DEC-670D-4102-8FF1-91EFD8E9934B}">
+                    <File Id="DESK_fil70339920C59B8EE062DD305E6732B2B0" KeyPath="yes" Source="$(var.DesktopDir)\bg-BG\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp5F0EE96CF4C3CC52F386377849348D04" Guid="{60412CBB-F88C-4B2A-994A-E61CD330EA72}">
+                    <File Id="DESK_fil4652341EC2B9F1C862B7069BA25D3C62" KeyPath="yes" Source="$(var.DesktopDir)\bg-BG\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir01DD1E38CAD182B55A944B5BDA6926A1" Name="bn-IN">
+                <Component Id="DESK_cmpE0E292F3E412B37F31D611D860B42412" Guid="{9D591C62-3874-4632-B9F5-99A9696871FA}">
+                    <File Id="DESK_fil70693BA8B201D18F7B4A2D788BC57075" KeyPath="yes" Source="$(var.DesktopDir)\bn-IN\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp3D5F52ED89C3E612FCEEB2CBD5763195" Guid="{494B9501-5052-463B-BA52-5E79B799D334}">
+                    <File Id="DESK_fil8F253DE771D3002F112AC66B0B2086C2" KeyPath="yes" Source="$(var.DesktopDir)\bn-IN\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir52A879D85171EF1CF7CF480AABFB43E2" Name="bs-Latn-BA">
+                <Component Id="DESK_cmp912E75EA58691FB7B49864D8AEE0CBFC" Guid="{1D66A6C6-51C5-4B49-A29C-C977D7D07FF9}">
+                    <File Id="DESK_fil15195F8BB23DA467A1EBBD33BE6ABC82" KeyPath="yes" Source="$(var.DesktopDir)\bs-Latn-BA\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpD84B194ECAA584941BE9FD823C2AD4CF" Guid="{A9F8E712-71A8-485B-8524-0AE49412EE91}">
+                    <File Id="DESK_fil06B73F06637D2536BDE050E2CD7EB011" KeyPath="yes" Source="$(var.DesktopDir)\bs-Latn-BA\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir3AC91777364664279954680D11761783" Name="ca-ES">
+                <Component Id="DESK_cmp9153216D997C2BA0162936A31FB7332F" Guid="{8DAB5621-DC6C-4B78-AF6D-D57D7C4CE014}">
+                    <File Id="DESK_filD7BFC5B21B8EA3A0890A66C223B313CA" KeyPath="yes" Source="$(var.DesktopDir)\ca-ES\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp35090A61E8C3021004327799804FCF0E" Guid="{C1333280-EDA9-43A0-BD9E-E833243985F0}">
+                    <File Id="DESK_fil6E38EEFDB39BA356A47714A5629BA02E" KeyPath="yes" Source="$(var.DesktopDir)\ca-ES\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir59CBF0EF46DE5B7BB6CAD4EF0F6FAAA3" Name="ca-Es-VALENCIA">
+                <Component Id="DESK_cmp6257388D97FE87EA62D0A9320C8B56BB" Guid="{7B827E5B-8FD9-490D-8080-0B65AAC6BF72}">
+                    <File Id="DESK_filC6A32D9049FD54C2B4B0EC160FD6BC61" KeyPath="yes" Source="$(var.DesktopDir)\ca-Es-VALENCIA\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp334D2235C26FAB53E378992AF776CD21" Guid="{946A47EF-6C4B-455B-A105-C84D99AC2E01}">
+                    <File Id="DESK_filDEBFE6AC5EFBE845D196920F5C0BDCFC" KeyPath="yes" Source="$(var.DesktopDir)\ca-Es-VALENCIA\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir685A0806E2E8E14FA0BEED541D816845" Name="cs-CZ">
+                <Component Id="DESK_cmp78BBD25080738593531A5460BA6DC8FF" Guid="{C36B007A-D5A6-4023-85CB-6241EECF61B1}">
+                    <File Id="DESK_fil17E168CF9F63D03C5FE4EC88C0A9E820" KeyPath="yes" Source="$(var.DesktopDir)\cs-CZ\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp83B53E452EC33C47892B43F4790FB403" Guid="{F8FDF6D5-C194-4463-9EB2-33080F2E070F}">
+                    <File Id="DESK_fil1D6EF3A821AFA4F2E65A30C58F456F2B" KeyPath="yes" Source="$(var.DesktopDir)\cs-CZ\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir2961D9AFD83790E1C3AB97D14A56490F" Name="cy-GB">
+                <Component Id="DESK_cmpFE3F04A8F6EF1EF711A19B7F987A9EA6" Guid="{3DE1A193-DE79-4D1E-B89D-C24559C583FF}">
+                    <File Id="DESK_filE074C77BB16C5C4F54AA33B5438B7A2C" KeyPath="yes" Source="$(var.DesktopDir)\cy-GB\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp446493B984DAC16020890E14F5BDEF9E" Guid="{0921336C-95E9-4C83-A0C7-C5AB259869A3}">
+                    <File Id="DESK_fil02ACD9DE77CECA1259960F8E1A2B2C35" KeyPath="yes" Source="$(var.DesktopDir)\cy-GB\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirC97839A687F38507CBDC8308C8F3E352" Name="da-DK">
+                <Component Id="DESK_cmp24B6C9AA392708EA32F8FA787D778CE7" Guid="{6B7C9A8D-A098-49F2-B452-7681215D9A9A}">
+                    <File Id="DESK_fil46D6931A041C034CBF66DF5792D7D279" KeyPath="yes" Source="$(var.DesktopDir)\da-DK\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp49D0978BB4049C5F7B64A311CD5C4668" Guid="{B776778A-CFE3-4524-B84B-FEF30DBF1AFD}">
+                    <File Id="DESK_fil5495CB5E8CFC0C88454CB3D8450A2727" KeyPath="yes" Source="$(var.DesktopDir)\da-DK\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirA4D3CBE83CC778D611403A81761AECB0" Name="de-DE">
+                <Component Id="DESK_cmp156EF4FACC15D2FA29B9A113C6B804B0" Guid="{BDEE197D-A4AF-4505-96F0-49A10C0D8DF6}">
+                    <File Id="DESK_fil08A1DBF1E0E272C39C7F3B39105BA44A" KeyPath="yes" Source="$(var.DesktopDir)\de-DE\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp32814F35040C0F5E0B052ABB37EE668C" Guid="{0DFD8AA7-7D85-403E-95BC-F32E77D42603}">
+                    <File Id="DESK_fil0952B20EAB785CC9D49E22A1CBE42D68" KeyPath="yes" Source="$(var.DesktopDir)\de-DE\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirFBAAE6FE9751C9F0994B48E58B9C8E06" Name="el-GR">
+                <Component Id="DESK_cmp8D55D119FB18C41150A19AAAB9A72379" Guid="{7E2B0834-C2B0-49A1-9BB1-E5315B1BC6FA}">
+                    <File Id="DESK_fil5523D1858E0C00B9BEE37D52C4B287A4" KeyPath="yes" Source="$(var.DesktopDir)\el-GR\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp9F2142F3BBD0B81B922AE7561221ECE4" Guid="{8F9A5A8D-EF73-4DFC-8536-982597F6C264}">
+                    <File Id="DESK_fil54602325E3AF3B3D5768A9D3A6E89201" KeyPath="yes" Source="$(var.DesktopDir)\el-GR\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir80583300DBB612F929EAA607E86402CD" Name="en-GB">
+                <Component Id="DESK_cmpA2567E45592342D3D669055AF4F05545" Guid="{DFCC4CFD-C15E-4E17-B10A-4B39B5A5F06E}">
+                    <File Id="DESK_fil5945F8FD99111382DB527CB373D32110" KeyPath="yes" Source="$(var.DesktopDir)\en-GB\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp0D2FDD5B42E513558EA42C68BEC7C94E" Guid="{716BA3D2-11FD-43D3-A131-DD3633AF0215}">
+                    <File Id="DESK_fil136B0FFDA9AC05DDBA121DDE047C71F4" KeyPath="yes" Source="$(var.DesktopDir)\en-GB\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir7F0E83DE8F83DBD6E7224B3DCE0A88BA" Name="en-us">
+                <Component Id="DESK_cmp6F0C8EF0D5733634DE07F34F18F640A6" Guid="{C103EEF8-D588-4322-BF45-07C68A18A4CB}">
+                    <File Id="DESK_fil2FC98BBC3B6C6844A997538DCDA2B490" KeyPath="yes" Source="$(var.DesktopDir)\en-us\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp011807259F7C48B6A1DF860056AD07D6" Guid="{789E97AF-6839-42FB-BD5A-84B9F1E362D0}">
+                    <File Id="DESK_filBCA4867B6F5D8F12FD4C2425B8023F5A" KeyPath="yes" Source="$(var.DesktopDir)\en-us\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir519A934CFE79399491EFB9468A5F9603" Name="es-ES">
+                <Component Id="DESK_cmp71617248039C908601A6E563DFAD3F96" Guid="{7DAE4C7A-D3C4-4170-917D-4820A3B61F65}">
+                    <File Id="DESK_filFB828D92A169AC9153C96E50427C0CA3" KeyPath="yes" Source="$(var.DesktopDir)\es-ES\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp702D9185578A95AEC68D60E00BC0AFCF" Guid="{B395381B-68FF-407B-85B7-2853DED1DAE5}">
+                    <File Id="DESK_fil1E918654F354E74C0514FDBB88B3418C" KeyPath="yes" Source="$(var.DesktopDir)\es-ES\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir15C6D4CA9C5E1FDF94DF14432F599B2A" Name="es-MX">
+                <Component Id="DESK_cmp49E9334DECFD24CB50E3641A2FBE7EC0" Guid="{8A25E491-8D1B-440A-9B00-C0005CACB31C}">
+                    <File Id="DESK_filE66D9470A9ABB5739B51CD3C83B8DE1A" KeyPath="yes" Source="$(var.DesktopDir)\es-MX\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpBDC125ABDEE80C823629FEF521259240" Guid="{C3B02C26-2CF2-40FC-8FB1-7DFB1BE5D2C3}">
+                    <File Id="DESK_fil04E75238262EB385270F0C987B660C8D" KeyPath="yes" Source="$(var.DesktopDir)\es-MX\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir619B538A872CA0EC0D6405666B5ACFA9" Name="et-EE">
+                <Component Id="DESK_cmpA84033671778819B027ED292CB232143" Guid="{8231650A-BB83-4427-82AC-A3CF2DBDAC22}">
+                    <File Id="DESK_filBC2CA57C6216CC33CAD3D0F8BE2A5162" KeyPath="yes" Source="$(var.DesktopDir)\et-EE\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpDE6CF78AB519C1A09F78CBBA430124A7" Guid="{A5CB59CE-96C6-4164-99C7-C83716A4C671}">
+                    <File Id="DESK_filECA014E475C97740D166FFEDA6339171" KeyPath="yes" Source="$(var.DesktopDir)\et-EE\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir3CFB500B170BAC4E97741F8E5DC428DC" Name="eu-ES">
+                <Component Id="DESK_cmpAF6663D486A6CF84BB01E020C61D35AF" Guid="{96541628-1709-4E4A-B9E3-0A0E29870954}">
+                    <File Id="DESK_filBF76E641FA05E1C6D36295A9E679CD5C" KeyPath="yes" Source="$(var.DesktopDir)\eu-ES\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp15C1411DFD493C28F3C997468D7AA61B" Guid="{10C84E81-4654-4C35-AAFB-BD403FC66705}">
+                    <File Id="DESK_fil90F3A0806068FDD14737BD772B7620EA" KeyPath="yes" Source="$(var.DesktopDir)\eu-ES\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirE7F692EE54FF4237541F9D5E36187953" Name="fa-IR">
+                <Component Id="DESK_cmp561FF1D6671154A28046F0442CFBD6B5" Guid="{34DF2045-3017-4CE9-BA24-0DAD3A241B70}">
+                    <File Id="DESK_fil848E287EB95891AEDE087CA3BE06984B" KeyPath="yes" Source="$(var.DesktopDir)\fa-IR\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp3ED5B121A87C48DD635191A0B0A6E33D" Guid="{7F0E5937-F441-47F6-A7D9-643152B83EC5}">
+                    <File Id="DESK_filE366ACC6342A9C2D5F579768E65531DD" KeyPath="yes" Source="$(var.DesktopDir)\fa-IR\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirA9B029A8243C2F241FDE95930E4A7493" Name="fi-FI">
+                <Component Id="DESK_cmp3B357E6D0C2A33CFF3965EBC53C92D00" Guid="{569C58EB-DDF7-4CCF-A84C-063EFE006AE0}">
+                    <File Id="DESK_fil119E9D6BE1CF82F75D1C2055D45A76F5" KeyPath="yes" Source="$(var.DesktopDir)\fi-FI\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp5B3216070F85472832961EED6709DF6A" Guid="{95AEA7A6-CE94-40C8-8EBE-8A0BDC84FDB5}">
+                    <File Id="DESK_filE2F5857C1EB2FED51463DF3986FF4644" KeyPath="yes" Source="$(var.DesktopDir)\fi-FI\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir39DE8013AB5A144020356021A509C842" Name="fil-PH">
+                <Component Id="DESK_cmp6BE468D33EB608994474047A91CE13BB" Guid="{D4F3B9A8-5E01-4F0C-AD80-E38022E8836E}">
+                    <File Id="DESK_fil29373F5456DF96636F29479C667B2836" KeyPath="yes" Source="$(var.DesktopDir)\fil-PH\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp7AFEFB60FEF3584A75048ADA5FEBE1E0" Guid="{A372097B-2D2A-4091-A561-67D97736EBD7}">
+                    <File Id="DESK_fil49DAF3FB6401F399F6B325B4F6E32F2E" KeyPath="yes" Source="$(var.DesktopDir)\fil-PH\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirB58A8BCF5145E5018093D59C956353F2" Name="fr-CA">
+                <Component Id="DESK_cmp22CA014D51375E5DA361D48D1B84A661" Guid="{8297631F-031D-4A30-81D8-990E0D6D81EB}">
+                    <File Id="DESK_filB20552E392FC30B98B09159C6022C59F" KeyPath="yes" Source="$(var.DesktopDir)\fr-CA\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp08B2C88499D2167580FE54D2BE749BF6" Guid="{F10F0600-5C94-4CE0-8F3D-58FE8D642779}">
+                    <File Id="DESK_filD46C4923F84F64C6EDE010C2F29F63ED" KeyPath="yes" Source="$(var.DesktopDir)\fr-CA\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir83A5A46E4C0778C480C853AB49248682" Name="fr-FR">
+                <Component Id="DESK_cmp67A081B7AE4E68C2B4316125865F0713" Guid="{3127E557-6E06-409F-AD2F-6043B4CB1BF5}">
+                    <File Id="DESK_fil018EC1E88086742A91288D0EB1781DA3" KeyPath="yes" Source="$(var.DesktopDir)\fr-FR\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp46A6F82E2C8A32CD34A02D1A4F2879C8" Guid="{23CD5202-6004-41EE-AFF7-B8099CE86237}">
+                    <File Id="DESK_filC30514225E8C59752CFA0928D31C63A6" KeyPath="yes" Source="$(var.DesktopDir)\fr-FR\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir85CB3E3DD309E7DF0459D4DD1E1DDD02" Name="ga-IE">
+                <Component Id="DESK_cmp4FB2EEC44BC190CDA28701B15B057AAE" Guid="{5A518C54-4E16-43E5-9DB7-7397549FF632}">
+                    <File Id="DESK_fil91A814A599109D93E5F020ED1C5DA243" KeyPath="yes" Source="$(var.DesktopDir)\ga-IE\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp6F63482EBFF02A976EBAF46286496530" Guid="{85BEFC38-1E66-471C-8ADA-3EA936E020BE}">
+                    <File Id="DESK_fil1FB4184DBC8AFF94C5B348421B037AFF" KeyPath="yes" Source="$(var.DesktopDir)\ga-IE\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirF1BD29AB3A335CB1F9B86BFB9FBBE74D" Name="gd-gb">
+                <Component Id="DESK_cmpEB985383D44754B88C5D2CFF107CCBE9" Guid="{01E68582-C000-4A3A-A5D3-D7F8D8EE6011}">
+                    <File Id="DESK_filE6B44BA265EDCE1923354DBF14499355" KeyPath="yes" Source="$(var.DesktopDir)\gd-gb\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpF536323EEFF853E813E578EA961BE51E" Guid="{8B27DE25-F7CA-4B87-B7E8-5966B3D78B38}">
+                    <File Id="DESK_filC892BBB9CFB0BF77084E77881A4484A8" KeyPath="yes" Source="$(var.DesktopDir)\gd-gb\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir06082F6D290817B3DB2E45D0ECEBF176" Name="gl-ES">
+                <Component Id="DESK_cmp3C38100F54BA2C3AEBDBD2F456B6F5E1" Guid="{0987536C-FC9E-43D6-ABCA-A58C41C39C71}">
+                    <File Id="DESK_filF766BBCF5933144061C34000ADC49B0C" KeyPath="yes" Source="$(var.DesktopDir)\gl-ES\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpAA182571EF0086C06ADA9B99E559806A" Guid="{8AFEEE2C-81D3-492B-A058-F33DFD618555}">
+                    <File Id="DESK_filDF23652F42CF6D99C01D4B8D5CD5F438" KeyPath="yes" Source="$(var.DesktopDir)\gl-ES\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir2F8C2184C4A719CBF6552533FD5795FD" Name="gu-IN">
+                <Component Id="DESK_cmp738280FCC8F67381A8F35CD5E581DF8B" Guid="{336FF43E-B366-484F-8B02-D53539166D29}">
+                    <File Id="DESK_fil9C17FB0437CBD2B9DDC7E1D479C2BD9F" KeyPath="yes" Source="$(var.DesktopDir)\gu-IN\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp786785A45DABEAB1B5E89CF35AA8861D" Guid="{27F1A543-513C-4FA4-A532-B2383B63845B}">
+                    <File Id="DESK_fil46030B23A52CBB932C5F3C6B3CF9ED95" KeyPath="yes" Source="$(var.DesktopDir)\gu-IN\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir7F087026D51E5913577176AF1F7AF58A" Name="he-IL">
+                <Component Id="DESK_cmp9B17B0318493F7A35FC332D08A4C75EA" Guid="{40680F59-BA0C-427D-AB9B-FA904EC8CA45}">
+                    <File Id="DESK_fil4F3E346E8EB023B525824E860D8D6E3E" KeyPath="yes" Source="$(var.DesktopDir)\he-IL\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp75DC79B0F23EBF985BF94CD23DBD293D" Guid="{78EEF018-997B-4EE1-80B9-3EFC6552DCB4}">
+                    <File Id="DESK_fil1FDF31FD8BDD29B5D4CC746D09494CEE" KeyPath="yes" Source="$(var.DesktopDir)\he-IL\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir83D31F02C8A619F6B66CBE1B6673DC6A" Name="hi-IN">
+                <Component Id="DESK_cmpACBCA5A2A76679F33DA4494128383B04" Guid="{2A010C92-4222-41DF-922C-BB481DE7C03A}">
+                    <File Id="DESK_fil5AC751F3A81E90E9351F68C8CEDBEDEB" KeyPath="yes" Source="$(var.DesktopDir)\hi-IN\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpEFF6CF46DB7B5865C2FBB633053D43BC" Guid="{D9868653-4CBD-464F-B26E-96BD398A3C32}">
+                    <File Id="DESK_fil802A40481578F35D0D522FD14585C146" KeyPath="yes" Source="$(var.DesktopDir)\hi-IN\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirBE47B449BF87E4F551ECCC45544832BE" Name="hr-HR">
+                <Component Id="DESK_cmpCAC2AB9758FB582A8266C1B11219C244" Guid="{039966C0-F1C7-4051-82F6-4149A96A7138}">
+                    <File Id="DESK_fil9943B8A91F557BDE014065712AFA81A8" KeyPath="yes" Source="$(var.DesktopDir)\hr-HR\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp8F7264A3EBA3CB58915525693FF365A1" Guid="{7E79D1F2-7D2F-4B54-B887-A27F07F3B1CD}">
+                    <File Id="DESK_fil707C5FB4AFAE4AA274DA8278D6789F72" KeyPath="yes" Source="$(var.DesktopDir)\hr-HR\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir14C4FAF982D18EF4AC667413C9D0F458" Name="hu-HU">
+                <Component Id="DESK_cmp1AD2FFAC2DB39920371022788FE9B105" Guid="{8B8B3A21-9ABF-4B17-BA91-6D0A01C3F28A}">
+                    <File Id="DESK_filC465CDA8CDE8C4BB00D884471A07E247" KeyPath="yes" Source="$(var.DesktopDir)\hu-HU\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpC1D6883664B11BAF60F9085668C93484" Guid="{D4929457-7478-4FE2-882B-32933962ED3D}">
+                    <File Id="DESK_filD43CF0100D2E742530A4D53D001097EF" KeyPath="yes" Source="$(var.DesktopDir)\hu-HU\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir8D0CDDD52775985A17B00903ACFB1B1B" Name="hy-AM">
+                <Component Id="DESK_cmp644712B4236B7D7BF6BA4D861E054140" Guid="{85F1FD6C-997B-4580-9C01-65E6ACC91557}">
+                    <File Id="DESK_fil2402E9F2C0E1434795C455B670999AB1" KeyPath="yes" Source="$(var.DesktopDir)\hy-AM\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp106A435F6AC0E08D987378281F102858" Guid="{5791E7F9-86E2-4616-8230-7AF4B68EFF0A}">
+                    <File Id="DESK_fil7B1DD2020627C7AD11FAB8990A8E1FED" KeyPath="yes" Source="$(var.DesktopDir)\hy-AM\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir59E6E5F01DAAF89C01ECF3A2545CA15D" Name="id-ID">
+                <Component Id="DESK_cmp0C35B8364570F343D0874D38BE4E9C44" Guid="{7DD3BA8F-BFCE-48A6-803D-98424709514A}">
+                    <File Id="DESK_fil066EDC7188DA7589F7C942996CB7D4A7" KeyPath="yes" Source="$(var.DesktopDir)\id-ID\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpDB93FD9E2C16A72C09C579BADB690F0A" Guid="{9E22A839-AC6D-416A-9A50-81E6983857BC}">
+                    <File Id="DESK_fil10BCCE1DBCD5DC84161D1427A4A3E57E" KeyPath="yes" Source="$(var.DesktopDir)\id-ID\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir21C1843FA652FC121BC601BA561AAF97" Name="is-IS">
+                <Component Id="DESK_cmp2C695D9CB85C8E3E354404BE86B623D9" Guid="{DC9AA4BE-053A-40BB-9BAB-8303A2FEC133}">
+                    <File Id="DESK_fil131B9871479E7AD87F16F0C858A8388B" KeyPath="yes" Source="$(var.DesktopDir)\is-IS\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp420E3E58A58193BBDB9C839BE8A42703" Guid="{89243181-117C-4800-952F-DA7196219740}">
+                    <File Id="DESK_fil16EB1EE0124AE2B0BF990A86928EBEF8" KeyPath="yes" Source="$(var.DesktopDir)\is-IS\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirE3B78FECC55D051A290D65DB7152303E" Name="it-IT">
+                <Component Id="DESK_cmp61A5A90D9F68EBD1462FA3B6A543155C" Guid="{086DA4C8-216B-4B32-AFD7-CF333CE343B7}">
+                    <File Id="DESK_filBDC4014EAB9DCA4D52CB2F9911A7B9F5" KeyPath="yes" Source="$(var.DesktopDir)\it-IT\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp95B46729A92E2A600532F4C2193F591D" Guid="{60BAE25F-3B48-4E34-8D32-903183F28A54}">
+                    <File Id="DESK_filCFC5B0384FE4954B2FA7C63087D86ECB" KeyPath="yes" Source="$(var.DesktopDir)\it-IT\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir491F4D4E37AD7E1BE6B3D0E7F3A72AD8" Name="ja-JP">
+                <Component Id="DESK_cmp1C6CBB8D11AF274B48C70DFA67494970" Guid="{C0ED1D52-3211-4726-B69A-F24F8C98AF85}">
+                    <File Id="DESK_fil273C7308D276FD2A23988D60A960A6CB" KeyPath="yes" Source="$(var.DesktopDir)\ja-JP\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp61D927E4A0D75649EF0DEE1B19148465" Guid="{A2ABEC15-68B2-4B1F-8248-97F7056E0C92}">
+                    <File Id="DESK_fil015AD64A04190A7750A19AB2EB90D9F4" KeyPath="yes" Source="$(var.DesktopDir)\ja-JP\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirEC15C0A581CA8A850FD39E162B148A72" Name="ka-GE">
+                <Component Id="DESK_cmp1E9A9A9E2C878303956C66D94AFD9BBD" Guid="{FDEDBE00-CA49-4EF4-BF0D-1083CC15ED5C}">
+                    <File Id="DESK_fil996F14E2F18A2F10BF996F5054049035" KeyPath="yes" Source="$(var.DesktopDir)\ka-GE\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpCEAD6D141A66CA17AFFFC9C021E2B4A2" Guid="{B0AB51F6-D84C-46A1-B0DB-958637C957D3}">
+                    <File Id="DESK_fil85F85EF67E1C004E3A5FE1A1709AE40F" KeyPath="yes" Source="$(var.DesktopDir)\ka-GE\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirD9F51AB5BD2591E8E44B7C4A5D56AE57" Name="kk-KZ">
+                <Component Id="DESK_cmp27E3F1B85F8659EAFC560F217EC113BB" Guid="{CB4AEE3F-8D01-4F56-A42C-4509A59F5D19}">
+                    <File Id="DESK_fil8405A0B12D7FEE7F290042FAF1B8DFA6" KeyPath="yes" Source="$(var.DesktopDir)\kk-KZ\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp35D29734A1E12739D370E4797A206C57" Guid="{28BD7F93-04F7-41E1-84C0-A145D2AEFEE1}">
+                    <File Id="DESK_filE40417453B475E799A45F2D5E7E7C1F7" KeyPath="yes" Source="$(var.DesktopDir)\kk-KZ\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir7E711AA6D714D45CFE4107C62F3F8A9E" Name="km-KH">
+                <Component Id="DESK_cmp17D1F1AFA5B374915BB5CF5057F8DDDB" Guid="{61C0C6BA-C27F-4FE8-B646-3E9CC5A77356}">
+                    <File Id="DESK_filAB91383DFEFC62864BEC781661676116" KeyPath="yes" Source="$(var.DesktopDir)\km-KH\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpA7CF925B986451C0DDB6E277EDCF2270" Guid="{D1650F81-E91E-45FE-91A7-BF348FB6D45A}">
+                    <File Id="DESK_fil29103264DDA04E0221C2DF0AAA3C7617" KeyPath="yes" Source="$(var.DesktopDir)\km-KH\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir699DB5E8920061AD6B886596167280B4" Name="kn-IN">
+                <Component Id="DESK_cmpD187F8885874BFF6644BDF8697EE9081" Guid="{C0DF026E-D616-471F-A527-1553D5B78621}">
+                    <File Id="DESK_fil34FEDBA8D476021EED03B245535E351F" KeyPath="yes" Source="$(var.DesktopDir)\kn-IN\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp92A411B63FC97714EF2520E6731AE12F" Guid="{48C1CF1E-4969-42B7-A556-EF8025123A2D}">
+                    <File Id="DESK_filEBE47B1E35BCA51F24A072BDD7121D80" KeyPath="yes" Source="$(var.DesktopDir)\kn-IN\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir6CA1875845D80157AAC810E64476B463" Name="ko-KR">
+                <Component Id="DESK_cmp1B35511A7BC0B5FD94365D48675BB516" Guid="{F32700CC-23C6-4FA1-AD2D-CC6935892F13}">
+                    <File Id="DESK_filAB7B4F1041B5812F524D84C4A511A8CF" KeyPath="yes" Source="$(var.DesktopDir)\ko-KR\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp309F0402130ABF5473D072964B6687D3" Guid="{A589F55F-841D-4D6D-BC51-BC133A79BB06}">
+                    <File Id="DESK_fil7183221B6BF4764F8277BF5C4F3C59E9" KeyPath="yes" Source="$(var.DesktopDir)\ko-KR\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir455B5108DFC2FEFA7B48044F4DB30606" Name="kok-IN">
+                <Component Id="DESK_cmp4CFC76C82950D2767ACE3A6E2C700F80" Guid="{2948D578-A607-49A3-9B1E-A60673C8B190}">
+                    <File Id="DESK_filFC8CF4C7A0285B42404767553496A83C" KeyPath="yes" Source="$(var.DesktopDir)\kok-IN\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpFC992BC2A5FDF62217C8B8362004966A" Guid="{448119DA-44B6-4624-A6DD-8B3C6DD4A8F8}">
+                    <File Id="DESK_fil785C33618206F63669EED000F779570D" KeyPath="yes" Source="$(var.DesktopDir)\kok-IN\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir250241518110E981EFB707C222FBB8D5" Name="lb-LU">
+                <Component Id="DESK_cmp8DDD27987B66D319D6741CA41BC3EF43" Guid="{9433C047-751D-4406-822A-FB68A10221E6}">
+                    <File Id="DESK_filA487158B3C165F564B32265CCFC4BB0C" KeyPath="yes" Source="$(var.DesktopDir)\lb-LU\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpFCEA5932EFD985F979EF98EBD333C4FA" Guid="{F34E26D8-FDFB-4BFE-AD08-0648178DB0F5}">
+                    <File Id="DESK_fil70D188AE10FA72F28866F425BEFA11EF" KeyPath="yes" Source="$(var.DesktopDir)\lb-LU\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirE0C3E324DC6ED631E33DE027B23C757F" Name="lo-LA">
+                <Component Id="DESK_cmp57A8ACBBCCE97B10F3C711E6E8859034" Guid="{E98B2BE0-460E-43B2-BAA7-55D0F3D5103A}">
+                    <File Id="DESK_fil0823A789697D284231A1BEBC77CD6F08" KeyPath="yes" Source="$(var.DesktopDir)\lo-LA\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp6529AD44B95437D1B4E7D849CEFFA341" Guid="{5B98FCF6-6DEA-4028-ADD3-A38146393188}">
+                    <File Id="DESK_filC6DD235049CC0D5E6A313BDD75EEBE8D" KeyPath="yes" Source="$(var.DesktopDir)\lo-LA\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir768470E0FA10C7F41860ABF9EABD8534" Name="lt-LT">
+                <Component Id="DESK_cmp474828C456115EF4162A1C124F36A4D5" Guid="{7FB2A1BA-25D5-4DD5-8F8F-DB19FAE1C4B2}">
+                    <File Id="DESK_filB84631A2781EF15421258DC28A0B0B01" KeyPath="yes" Source="$(var.DesktopDir)\lt-LT\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp9283FA4AEE0F08AAB7AB87827B28DC26" Guid="{026812F8-BB3C-4BCA-8A4A-D5961100CE87}">
+                    <File Id="DESK_fil24AC09E24350C6B8341CD76494DAF7BC" KeyPath="yes" Source="$(var.DesktopDir)\lt-LT\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir1A833CA7766977D10EEE162A73D1C0B5" Name="lv-LV">
+                <Component Id="DESK_cmp304D68A39CCA5BBA90AA0BA55D00C551" Guid="{05B8E976-F1FE-44BD-9DF0-EDFF59452A1D}">
+                    <File Id="DESK_fil6EBA5B3A4ECA4DCA857C719DCBFA8C94" KeyPath="yes" Source="$(var.DesktopDir)\lv-LV\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpDD4F219250A08A3487BCC283E7928CF2" Guid="{FFFE50E4-43A0-42CF-8C59-95C3D126ACFA}">
+                    <File Id="DESK_filC7E231BC69BE4156741D003B285C53CA" KeyPath="yes" Source="$(var.DesktopDir)\lv-LV\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir9BEDB581D78B5679E3E400FE21146DC2" Name="mi-NZ">
+                <Component Id="DESK_cmp73D821BB2230F651B2C124427DA8A77D" Guid="{306E124D-77B5-4DFB-A2B3-7BE001315409}">
+                    <File Id="DESK_filBFA8D4BEC2FF71EB3663B7310FFF351D" KeyPath="yes" Source="$(var.DesktopDir)\mi-NZ\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp7FDAB49410FCFF255C65CDDFFA2DAB6B" Guid="{B9AC47BC-E1FF-42DA-9DDF-5F84B077DD13}">
+                    <File Id="DESK_fil41E7E79720C7859561F62156BD0537FC" KeyPath="yes" Source="$(var.DesktopDir)\mi-NZ\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirBFE1B1B555C9CD11519B3E5832899E42" Name="Microsoft.UI.Xaml">
+                <Directory Id="DESK_dir0D7C77E0FD10B9CF872E8823EC562607" Name="Assets">
+                    <Component Id="DESK_cmp52C648C0C9459A3CAFEF21B96A49A346" Guid="{67C39E3D-1982-4E6E-8851-6BD2C881CB6E}">
+                        <File Id="DESK_fil73536583A50555F02DDA2EFCC6374472" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.UI.Xaml\Assets\map.html" />
+                    </Component>
+                    <Component Id="DESK_cmp2F2A3BEAB7E03FE0008017A9A8182DA8" Guid="{C9D2C3C5-BB0F-485A-B4D9-BF7808104C5A}">
+                        <File Id="DESK_fil2530CBBB31FDD6BE02A0906A624BF3D0" KeyPath="yes" Source="$(var.DesktopDir)\Microsoft.UI.Xaml\Assets\NoiseAsset_256x256_PNG.png" />
+                    </Component>
+                </Directory>
+            </Directory>
+            <Directory Id="DESK_dirB57733A1FA96EC30EDED668A51CFCCDD" Name="mk-MK">
+                <Component Id="DESK_cmpDA39AB3686083604C183C5BD7617464D" Guid="{83DCF847-7FB2-4625-A895-87109D312ED7}">
+                    <File Id="DESK_filC05FEA2B7E1406EE9F9D05FEF8AB3A7C" KeyPath="yes" Source="$(var.DesktopDir)\mk-MK\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpE7AE753BDEB101D8BC02F9D7857A687C" Guid="{A62FF48E-9352-4662-87DC-2038B013EAC6}">
+                    <File Id="DESK_fil7EE8D653483432646C1E5E79D1AE35F0" KeyPath="yes" Source="$(var.DesktopDir)\mk-MK\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir807FC5A25304A5BB655C4A870442B889" Name="ml-IN">
+                <Component Id="DESK_cmp5D0F639BBD864D4489033D1DCD9551A6" Guid="{13EB2E8A-67CB-415D-A1DF-92C83DBC6CAF}">
+                    <File Id="DESK_filE3135A49520639F19AB833831A5733CD" KeyPath="yes" Source="$(var.DesktopDir)\ml-IN\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpC82683A110891C077C9E04F01B1AC76D" Guid="{DC48FC85-6B25-46DD-A899-C17D5C682B81}">
+                    <File Id="DESK_fil857E2CB1ED90EC17460158F8C7AF6532" KeyPath="yes" Source="$(var.DesktopDir)\ml-IN\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir027D291715460BD4D8A46A73CCE1704D" Name="mr-IN">
+                <Component Id="DESK_cmpAACB0C98F77B956256BC36F9F140FCB0" Guid="{7E42EFB6-95ED-4AF6-ABDF-542BA832A38F}">
+                    <File Id="DESK_filF528430CD65F524DD4C5CC48F8ED0522" KeyPath="yes" Source="$(var.DesktopDir)\mr-IN\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpD0ACC25E31BE34FEEC09D7B65E45B281" Guid="{2A8E7F1D-8248-489E-B818-1C6CC312CAC3}">
+                    <File Id="DESK_fil2FD1B7BBFCFDE4BABD8488E94E463CF0" KeyPath="yes" Source="$(var.DesktopDir)\mr-IN\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir7B9F03B14B526DA62318E7D77ECBB1F7" Name="ms-MY">
+                <Component Id="DESK_cmpF26BE1DD89B326D880BFA0DF2E93F589" Guid="{7BE4F4BC-76E3-4430-A791-60FE3FDFD073}">
+                    <File Id="DESK_fil6F17D6295FCA70AFE6A77016C634972E" KeyPath="yes" Source="$(var.DesktopDir)\ms-MY\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp5528CADB8BAABB260833BCE9EE7E0B3D" Guid="{5537D3A6-BA34-49BF-9522-69F550CA7587}">
+                    <File Id="DESK_fil99CB7BDBDAE1DA14F9F013189326E542" KeyPath="yes" Source="$(var.DesktopDir)\ms-MY\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirF9CA15ECE4CA5909BC895C74A877DC3D" Name="mt-MT">
+                <Component Id="DESK_cmpB4CAE77B64A58705959082D88034581B" Guid="{632C0AEF-C82F-45F1-8C8A-3BEFEDB9A4DD}">
+                    <File Id="DESK_fil3B326DCDCB26856E8F89D8543E09C9CC" KeyPath="yes" Source="$(var.DesktopDir)\mt-MT\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp8397F8B473FE3CC6AB2E01E3D18F9F87" Guid="{20D407B2-3C69-4A6E-A040-4AF04DD01553}">
+                    <File Id="DESK_filFAD89F7D63E0B38585858ACB0D1CABF6" KeyPath="yes" Source="$(var.DesktopDir)\mt-MT\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirDAB6B60FBDEAE527E832ED82CFC20982" Name="nb-NO">
+                <Component Id="DESK_cmp58B2CC7498D70E97D1B6A7BEE97C1366" Guid="{99460B84-2D89-4257-8714-D0197FF99E5C}">
+                    <File Id="DESK_fil4CED4817691EB997674EE9B4044111A1" KeyPath="yes" Source="$(var.DesktopDir)\nb-NO\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp90A660C19ABD2D6713C3216279929556" Guid="{A7C3BFFD-2758-439F-8986-DB50EB7DEBAE}">
+                    <File Id="DESK_fil6E4D2313500893EDAF06A3782B876A52" KeyPath="yes" Source="$(var.DesktopDir)\nb-NO\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirC43AA2AE295CB2AFF8991CAD0448F9D3" Name="ne-NP">
+                <Component Id="DESK_cmpEC9F4ECE25227C16F9121551E0D82A88" Guid="{F1149698-D4C6-497D-80CD-54035A195B8C}">
+                    <File Id="DESK_fil1EDC250E2EEAE3C8200E9BA34F2E177B" KeyPath="yes" Source="$(var.DesktopDir)\ne-NP\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpEC79524FC686E75B376D33FC0D130EB9" Guid="{85056224-A0AF-449C-ADA2-9495CEAAFEBE}">
+                    <File Id="DESK_filBA9110160707C21B51FE0CBF50D66ED9" KeyPath="yes" Source="$(var.DesktopDir)\ne-NP\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir9AD1FFCB2B8D8250BB01CD23880C978A" Name="nl-NL">
+                <Component Id="DESK_cmpA8DF5D1710EE4469F54F1EB10590DFD7" Guid="{60787B66-093A-4698-8BE9-F103196B8362}">
+                    <File Id="DESK_fil4748DF155E9B60E3C90FCFA9F96B44D3" KeyPath="yes" Source="$(var.DesktopDir)\nl-NL\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpC3B5BE4379939318BD75935D2BB58180" Guid="{3BF81113-0208-4983-9BC3-CB5A4C2EFD35}">
+                    <File Id="DESK_filA6D05B82202E1B0913EDA725E73D6359" KeyPath="yes" Source="$(var.DesktopDir)\nl-NL\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir1D8CBA32CBC068D9BC69492CD41871F7" Name="nn-NO">
+                <Component Id="DESK_cmp0B63C5311C1C95CE1C5E03E9A59E8BAB" Guid="{29C2CEB9-0BCE-42FD-A36B-450E1FC5A5F9}">
+                    <File Id="DESK_fil3E1E50D13E93BAFD356E315B76B431DA" KeyPath="yes" Source="$(var.DesktopDir)\nn-NO\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpDEBBDB08601F0A281979027ADD4A7659" Guid="{450BA233-A610-4091-9EA0-8B2DB5B8506F}">
+                    <File Id="DESK_fil273ECDC0C8AA5BA01026D748C0326672" KeyPath="yes" Source="$(var.DesktopDir)\nn-NO\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir1B90AC81AD91BA750B27511A7E5F8271" Name="or-IN">
+                <Component Id="DESK_cmp2A008530AEEBEC5724D7A469806EAFD8" Guid="{F072FC97-ECC5-4C42-8EAA-90791274374D}">
+                    <File Id="DESK_fil0E601DEA48D63C8AFF00672B2BCD5097" KeyPath="yes" Source="$(var.DesktopDir)\or-IN\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp88CECBC64450068C003C8174738CE2CF" Guid="{554D2FCC-596D-4E25-85DB-52E8CF7ED612}">
+                    <File Id="DESK_filDE6FE9B76B8D1DD7AF40458E15396F38" KeyPath="yes" Source="$(var.DesktopDir)\or-IN\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir45BD79B2F0DBEA33D53234A66AD4B5C2" Name="pa-IN">
+                <Component Id="DESK_cmpC593C40747B42F7799AD262CA68710B6" Guid="{5FA4340B-7623-4B74-9278-D8E1C0697600}">
+                    <File Id="DESK_filE154E0E5EFEE53A4BF6FBEB5766FA4D2" KeyPath="yes" Source="$(var.DesktopDir)\pa-IN\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp74C6B78B081E11114A8223142F8CCA09" Guid="{C1169386-DD17-45FF-9222-E4911BC5EF64}">
+                    <File Id="DESK_filC27C92A1ADAEE6922B4F0C164EFE2815" KeyPath="yes" Source="$(var.DesktopDir)\pa-IN\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirFD77005055268DDC768930AE39C43C8B" Name="pl-PL">
+                <Component Id="DESK_cmp92F1769A862A6DF823928041754BD559" Guid="{8F18D944-FA37-4862-A4FC-35317252A8CB}">
+                    <File Id="DESK_fil3266716A3534129D18B663045B05B197" KeyPath="yes" Source="$(var.DesktopDir)\pl-PL\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp6A0B4F7EF293E06E41C275513AE33E29" Guid="{A8538556-120E-4764-9997-947599B134B2}">
+                    <File Id="DESK_fil7023EF8A4E6669E2757E8010AEA63A09" KeyPath="yes" Source="$(var.DesktopDir)\pl-PL\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir339F53F3A11C56B053FD1FEC9B438810" Name="pt-BR">
+                <Component Id="DESK_cmp3D0B756360AF4F7515341B2E9104CC62" Guid="{9004C748-D306-48E7-B6FA-64BC960DAA5E}">
+                    <File Id="DESK_filFF47809EFDFA342A1EC8F3D0A2AE1423" KeyPath="yes" Source="$(var.DesktopDir)\pt-BR\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpEC66C8A4B874A232FB0A962993E353A0" Guid="{AC2B704D-FDDD-4D7E-A130-1F73CED940E5}">
+                    <File Id="DESK_fil31A8E3E5297D0A902F9A684B560ECCA4" KeyPath="yes" Source="$(var.DesktopDir)\pt-BR\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirBD5A9D79E023DE60D6D9909C7468106E" Name="pt-PT">
+                <Component Id="DESK_cmp86E987D8881E95A8284BD8E7D3D87056" Guid="{DB2D4A4F-FFAE-473C-B233-190DDA6C3F30}">
+                    <File Id="DESK_fil1E95CC2BC86B612836C3E23127400E30" KeyPath="yes" Source="$(var.DesktopDir)\pt-PT\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpA664B887E2282AD0FB7EA20E60F8A908" Guid="{F822DF26-3DE4-4199-B6CC-B2E24D240A15}">
+                    <File Id="DESK_filB102FD5AA4D375631A13F9CE7D87642B" KeyPath="yes" Source="$(var.DesktopDir)\pt-PT\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirA9DA95379D5CF114FBE3D7A2EB79DF87" Name="quz-PE">
+                <Component Id="DESK_cmpABB3AF7B183312C1F46CCA84C718B24C" Guid="{F49B800E-38D5-4022-9F06-E46A9003FEB3}">
+                    <File Id="DESK_fil574A23FECB7316A71B97761D500FDCBB" KeyPath="yes" Source="$(var.DesktopDir)\quz-PE\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp2FD2D7FF2312009E5D4D3B76029E2E1D" Guid="{9ADDE532-09A6-409A-A89F-BF8C797EC529}">
+                    <File Id="DESK_fil5617FF7B592C1B925EA65C0D40A993EC" KeyPath="yes" Source="$(var.DesktopDir)\quz-PE\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirC6477B089471DA31FF82D8B479E07078" Name="ro-RO">
+                <Component Id="DESK_cmp56112F608010AB0B6A985008C96F6100" Guid="{67E28D9E-C8B2-46D8-AA82-36E7E202EB70}">
+                    <File Id="DESK_fil1E7348E9E0BFC58BFF727915E35463B6" KeyPath="yes" Source="$(var.DesktopDir)\ro-RO\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp4AD2825AC83E436865E6CE2B4300AD47" Guid="{4CFA9723-F34B-4E9A-8797-5C80EB757A2A}">
+                    <File Id="DESK_fil6DD81C81B103FE487F427D5851EF3261" KeyPath="yes" Source="$(var.DesktopDir)\ro-RO\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirD537E8BD60E960EB37BCA816F9AFAB0D" Name="ru-RU">
+                <Component Id="DESK_cmp7A15D45B9700FBB856419FB70A0795EB" Guid="{A25FB13D-CAE8-410D-9A83-192A19B92799}">
+                    <File Id="DESK_fil336BF3617750A9D33F2386FC766F44C2" KeyPath="yes" Source="$(var.DesktopDir)\ru-RU\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp8BEA94BAE41D872D91BCC4BF3FFA260A" Guid="{70FAC527-37C2-4D4D-BE9C-FE4E620B8781}">
+                    <File Id="DESK_filF06A31FCCD583C941953BD97D2C72A32" KeyPath="yes" Source="$(var.DesktopDir)\ru-RU\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir58E8247E2885C01898CAD009F9EFD8BA" Name="runtimes">
+                <Directory Id="DESK_dirFF6AADC4B618984E1542CDA5FCBD7BB1" Name="win-arm64">
+                    <Directory Id="DESK_dir65EC979D52EB501E3A656AA03EE4F2F5" Name="native">
+                        <Component Id="DESK_cmpC522365435B07512C6A2989A0B1A53ED" Guid="{3C7C2B2A-5936-4BA2-873B-09E635A17A14}">
+                            <File Id="DESK_filC9060D55A81238ACF32CC9C400C2C70E" KeyPath="yes" Source="$(var.DesktopDir)\runtimes\win-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="DESK_dirB9C75524282911E40C3C964A8836A714" Name="win-x64">
+                    <Directory Id="DESK_dir1F9DF9DD2FB29AE2942604FAC206D5C4" Name="native">
+                        <Component Id="DESK_cmp26C04945FC545F36C7E23A3D99380983" Guid="{2AAF52EF-9640-4201-9453-2C9425585342}">
+                            <File Id="DESK_fil734E376135689943CB560FCBA46EA618" KeyPath="yes" Source="$(var.DesktopDir)\runtimes\win-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="DESK_dir92F336DAA82E5A629052407A3F87EF27" Name="win-x86">
+                    <Directory Id="DESK_dir2B43AAE918D399CEF13EC6CBA2D3D5EA" Name="native">
+                        <Component Id="DESK_cmp2CFCCF682C33B43D663C7197665B1CCF" Guid="{7FA985BE-3C4A-445A-9D43-8DD49934ABD3}">
+                            <File Id="DESK_fil08BA73F9E8343E6A9B2268224BCEAE96" KeyPath="yes" Source="$(var.DesktopDir)\runtimes\win-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="DESK_dir35F081783626016E89FEF421E4337EDE" Name="win10-arm64">
+                    <Directory Id="DESK_dir043C75C37E090A522C6E60F42847C283" Name="native">
+                        <Component Id="DESK_cmpD6F848CC21F15C9B9421F53212899195" Guid="{263C0192-90B6-4FC3-B979-97392FCB7608}">
+                            <File Id="DESK_filB89634A65C48F47DF4F4FF0469EA829D" KeyPath="yes" Source="$(var.DesktopDir)\runtimes\win10-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="DESK_dirA791370D806A22A8AFD2CDFBA783EE41" Name="win10-x64">
+                    <Directory Id="DESK_dir4E04E77073D44FC31E6A18CA0851572B" Name="native">
+                        <Component Id="DESK_cmp97CC1B41C5DCCDF0983942B9DADE90F8" Guid="{D0FE6D49-B834-49BD-A4C9-EF147ADE0D27}">
+                            <File Id="DESK_fil3BEC06C8D5A439B578F9706F05B644AE" KeyPath="yes" Source="$(var.DesktopDir)\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="DESK_dir197DA881903E3C049827D5E978F270EF" Name="win10-x86">
+                    <Directory Id="DESK_dirB9511C548A02BD39E01B3D77FF935FFD" Name="native">
+                        <Component Id="DESK_cmp3BC58D4C785F81862499DA86190F6F69" Guid="{CC368E4D-53D7-4F26-B978-585F29637F57}">
+                            <File Id="DESK_fil76449BEA496580A58760B4B20AF01217" KeyPath="yes" Source="$(var.DesktopDir)\runtimes\win10-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll" />
+                        </Component>
+                    </Directory>
+                </Directory>
+            </Directory>
+            <Directory Id="DESK_dir7F7DDB536E7B59AD149778CC1178AB44" Name="sk-SK">
+                <Component Id="DESK_cmp37F6EE400B98392AD5EA894F4CFF56F3" Guid="{080DEE0D-8A09-4221-A353-1B987AB50DAA}">
+                    <File Id="DESK_fil1AB2BE759DC4DBBAA487221693D7C8AA" KeyPath="yes" Source="$(var.DesktopDir)\sk-SK\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp25AEC064522F64D1E678D9A58E857E03" Guid="{061156D7-27F8-4DBA-8848-495671E14CA1}">
+                    <File Id="DESK_filBB524B1CAC734590395B173FB62CD848" KeyPath="yes" Source="$(var.DesktopDir)\sk-SK\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirE6E3FF6670C5A54C462775AA7B643FD0" Name="sl-SI">
+                <Component Id="DESK_cmp72F689DFE5D2167FE6B4433199AC6A53" Guid="{F8D13184-0F5E-48D4-AD3A-6E9C0D595DAD}">
+                    <File Id="DESK_fil7CCBA46C561645EBBDEB7704A82F4305" KeyPath="yes" Source="$(var.DesktopDir)\sl-SI\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpC9D5231622366D9730F013E53B64CE97" Guid="{15531384-2A7A-4250-867E-87E6F8A47170}">
+                    <File Id="DESK_filB6664EA3577C5D5925D40BE728CD24A6" KeyPath="yes" Source="$(var.DesktopDir)\sl-SI\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirBF5833055F0A8EF49CCF37006584E9FA" Name="sq-AL">
+                <Component Id="DESK_cmp8A2AD1500F4D992570A0ECC98FFAF7AF" Guid="{393FCF77-8E27-4F4B-A5AA-1E6468606571}">
+                    <File Id="DESK_filD8E683381347839C2D12FBCDA488B9CD" KeyPath="yes" Source="$(var.DesktopDir)\sq-AL\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpADE971ED88D8E88C4FFBFC890340AABA" Guid="{51319235-1000-49E8-8ABF-748243B65433}">
+                    <File Id="DESK_fil983B94859793E14D20F48BDBBF074435" KeyPath="yes" Source="$(var.DesktopDir)\sq-AL\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirC73D595299AF601FF068DD4BF83C51D3" Name="sr-Cyrl-BA">
+                <Component Id="DESK_cmpA145FE89B37B77A3B15D608E9DC1D576" Guid="{EDABFCF1-67AA-4E28-B54F-EA90197DF8A6}">
+                    <File Id="DESK_filD9A04B27F8F7BADA662BED3A614827CD" KeyPath="yes" Source="$(var.DesktopDir)\sr-Cyrl-BA\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpE6E14B11CF3FCAE877190327F07F28E7" Guid="{6EC6B3BE-7323-47AB-B435-8386497B1764}">
+                    <File Id="DESK_filAEC7B225EDC1D466FC991A9B10BF7206" KeyPath="yes" Source="$(var.DesktopDir)\sr-Cyrl-BA\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir66F1C1415720B7F1FE711F9126640A78" Name="sr-Cyrl-RS">
+                <Component Id="DESK_cmpF06A287FA634619FE9CB435CB393AB43" Guid="{905D9630-EEF0-4ADB-8E62-9CC1053497E9}">
+                    <File Id="DESK_fil61D1F168E809C17CE9E477A80BEDBACC" KeyPath="yes" Source="$(var.DesktopDir)\sr-Cyrl-RS\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp9DD667DA0C6C0FE72B65B61B94997B81" Guid="{A0FAD12F-74BD-4B95-8294-9725A3C973C5}">
+                    <File Id="DESK_fil89D5B65E8594C4A8BC973224FA22CB81" KeyPath="yes" Source="$(var.DesktopDir)\sr-Cyrl-RS\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirC9B1EED034D7C4BD70BEE15BC5659235" Name="sr-Latn-RS">
+                <Component Id="DESK_cmpC1B318AC49F9509A2696CA63B9CAC599" Guid="{90C61EAF-ADE8-43E2-82D8-FCA07ADDE16E}">
+                    <File Id="DESK_fil2265D0AD6391126D386FC422F0282880" KeyPath="yes" Source="$(var.DesktopDir)\sr-Latn-RS\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpCD511138AD40BD8D7184DABDB1B91950" Guid="{36371119-D64A-44E9-ABC3-64A9B7AD0521}">
+                    <File Id="DESK_fil5921A9186168AA38C30F0E1D2D7BE6E4" KeyPath="yes" Source="$(var.DesktopDir)\sr-Latn-RS\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir12F4DA4CFDE1D5E56786C33DCDFFD26E" Name="sv-SE">
+                <Component Id="DESK_cmp44DCD41213488283DE8D7F1B8B9E1249" Guid="{844BBF38-EEF1-43E1-BBEC-BF7928813111}">
+                    <File Id="DESK_fil144AA908300ED9704196C4BF7ED2A8BC" KeyPath="yes" Source="$(var.DesktopDir)\sv-SE\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp9FAB48EF1940AA0D9A308AF96931FAB4" Guid="{FED28106-2C73-446F-9CFD-6B6484449575}">
+                    <File Id="DESK_filFA3458BA9933B8DCFDB30A30D8F2EE37" KeyPath="yes" Source="$(var.DesktopDir)\sv-SE\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirB1E29CA86D3EB56E4B8B368C2F2CBA1A" Name="ta-IN">
+                <Component Id="DESK_cmp95D9D2156895CB307B0F5B9DDA84B34A" Guid="{7F88BEBA-5B7E-4AEC-B528-09A53D627AD6}">
+                    <File Id="DESK_filB5B2A8C891A4EED2662FADC88C0E18C7" KeyPath="yes" Source="$(var.DesktopDir)\ta-IN\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp0A917E39C5C4033FDB5F66DED163F748" Guid="{B3EF256C-7B62-4F3F-867B-60F7BF6F3C01}">
+                    <File Id="DESK_fil0E1C952FB2C513503CBCA3B0D790106D" KeyPath="yes" Source="$(var.DesktopDir)\ta-IN\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir5A05C3FC50ABA28EE16971B65F5B1ACB" Name="te-IN">
+                <Component Id="DESK_cmp72C5646FE8E6517A1A6B8663CCF55C8A" Guid="{6037C473-5F9A-4F79-AD56-8676CE109EAB}">
+                    <File Id="DESK_fil3C67F0FB4C2772EE3B04CB61686F87D8" KeyPath="yes" Source="$(var.DesktopDir)\te-IN\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp966DBAAC0A5DBFC7DEF0C93230FE900E" Guid="{9F1BA1A4-95CA-4A32-9AA5-A0667AA4D0D3}">
+                    <File Id="DESK_fil2400CC5D7E4E795363E8A41B7E0B943C" KeyPath="yes" Source="$(var.DesktopDir)\te-IN\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir96982D8FEA0FC2B51236E39CB8819D19" Name="th-TH">
+                <Component Id="DESK_cmpCAB5D7537D2909D674D6A71964F54B50" Guid="{3657C424-5EE6-4F67-A1C2-66AFD43481D9}">
+                    <File Id="DESK_fil5E19BB6CD86C82A8F70EA7BE9CEE0343" KeyPath="yes" Source="$(var.DesktopDir)\th-TH\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmpDCB3965F4BFE410DA084689CC39B06D7" Guid="{F897B66C-A35A-4AF6-9595-B81A3D30080D}">
+                    <File Id="DESK_fil0EFCE8CDA35D93540D0CDC88A2E6CD7C" KeyPath="yes" Source="$(var.DesktopDir)\th-TH\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirC5B26D132450CAB95EF9A5C16E231DF6" Name="tr-TR">
+                <Component Id="DESK_cmp74E9744F115A4CFC9B8137F7D86FEE2F" Guid="{AC3E05AF-42AB-4F70-AAFA-BBB6DE6EB759}">
+                    <File Id="DESK_fil160220EA96AECAC80C4877598DEF8748" KeyPath="yes" Source="$(var.DesktopDir)\tr-TR\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp99A5C851CD56BACB9BB57F29551781D5" Guid="{EBECAC26-C00C-4BBC-981E-33937AB75FB1}">
+                    <File Id="DESK_fil0E66C9ED40CF07CBB794FBC0ADC86695" KeyPath="yes" Source="$(var.DesktopDir)\tr-TR\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirEB1551D346E093CDB5DA9A80AB85E2C0" Name="tt-RU">
+                <Component Id="DESK_cmp7B67556A319105083F63F80696146913" Guid="{87D350DB-8E96-47AA-86F4-7B2CE1055524}">
+                    <File Id="DESK_fil2A0F36E43995F7B73CAA43A34CA105C7" KeyPath="yes" Source="$(var.DesktopDir)\tt-RU\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp6C849FE8B10CAC575D012EF7141DE60D" Guid="{E4751A36-728C-4D5C-88A9-CC1AB6D029D9}">
+                    <File Id="DESK_filCD8CA13D1F144AA4A7E6DDCDC5ACB4E3" KeyPath="yes" Source="$(var.DesktopDir)\tt-RU\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir201EF1AD8C37D615C4C8C87F1D86B53B" Name="ug-CN">
+                <Component Id="DESK_cmp2DC78845B04694B948126B6A50D234FD" Guid="{A5EAD206-413D-4DD0-8E0F-4775108E9912}">
+                    <File Id="DESK_fil364C303624F4D64B284979306C2074F8" KeyPath="yes" Source="$(var.DesktopDir)\ug-CN\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp32ECE75D417B7CC224C8DEEBB2A7EF8C" Guid="{F683BA5D-ED63-45CE-B75C-BF2008301131}">
+                    <File Id="DESK_fil960A6313812D03FA6EC4328A322A25AF" KeyPath="yes" Source="$(var.DesktopDir)\ug-CN\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir4C9CDCA97812CCD677F51C9D2F37D5FD" Name="uk-UA">
+                <Component Id="DESK_cmp0FCFE29760305FD55FA3FFC48CE38DF7" Guid="{22B6BCE8-32F4-4072-99D2-677198DEF823}">
+                    <File Id="DESK_fil1113DE20121AE3C12C6B03ED5AD0D637" KeyPath="yes" Source="$(var.DesktopDir)\uk-UA\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp2B80FD86B3C8CCDF00F15D48149DC3AB" Guid="{66711138-45D3-4E68-AADB-45DC5AC2EDDF}">
+                    <File Id="DESK_fil67203F330956860C4000CECA98D4A8A1" KeyPath="yes" Source="$(var.DesktopDir)\uk-UA\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirCEF64894473740641BA4787BEFC00273" Name="ur-PK">
+                <Component Id="DESK_cmp8AA0DF3F6A64A582B166A812C5F573DA" Guid="{C2C966D7-D70E-4082-91EA-1BB03DBDD1D9}">
+                    <File Id="DESK_filE8C16CBD2E37D588E4C7832D8A50049D" KeyPath="yes" Source="$(var.DesktopDir)\ur-PK\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp69A408C340D491A715F3324A4E7C8D9B" Guid="{9331A05F-FB62-4C5E-8DB8-7083814C5EBE}">
+                    <File Id="DESK_fil7B5CA020F286C90A1BC256CB4539BF20" KeyPath="yes" Source="$(var.DesktopDir)\ur-PK\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir598534A9A725378241C7A1558C1841A7" Name="uz-Latn-UZ">
+                <Component Id="DESK_cmp78F5629836E3C96F8AB3C2971E2CAE04" Guid="{E3B0D7CC-B5F8-4A27-BF52-19D4E81CDA11}">
+                    <File Id="DESK_filA9E3512B67BDD2D7A145B2CB57D305F3" KeyPath="yes" Source="$(var.DesktopDir)\uz-Latn-UZ\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp1951D403A669C6630A611ED4D1FDE608" Guid="{F6E80D4D-6825-4E17-B3A9-80F6E9ED8BA8}">
+                    <File Id="DESK_filEF68795FFA759BD5CA3D284E6875DAA1" KeyPath="yes" Source="$(var.DesktopDir)\uz-Latn-UZ\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dirEB78B57923F9854F677D0247B4F0F25D" Name="vi-VN">
+                <Component Id="DESK_cmpFA25F4DD76B4A694FF35232369633320" Guid="{81C977F4-6422-4DF6-9F67-C822598A006E}">
+                    <File Id="DESK_filEF06BB964C6795B6343DD06448DF3F04" KeyPath="yes" Source="$(var.DesktopDir)\vi-VN\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp427E4EE996A2D1114901AC7355F5A889" Guid="{95D9E3A0-1CA0-4C5B-A9E4-3FF9443F92D1}">
+                    <File Id="DESK_filE77E9E86BBBE97042A281C492D82C6DD" KeyPath="yes" Source="$(var.DesktopDir)\vi-VN\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir3D83A529A2122889D4016E7D784625D5" Name="wwwroot">
+                <Component Id="DESK_cmpB7F911663F76213AA67DDBD93FB8FFC0" Guid="{A3E1B8F6-4E86-4878-ACA9-2830F7A1AEF5}">
+                    <File Id="DESK_fil9CEC0CBE5E0EA5B54F4D48408EF7D270" KeyPath="yes" Source="$(var.DesktopDir)\wwwroot\app.css" />
+                </Component>
+                <Component Id="DESK_cmp6A573805E6F545A7F37C18527646950E" Guid="{97113EAC-5B19-478F-B2F8-BECC934A6842}">
+                    <File Id="DESK_fil4340641EF92B44F5306114E3F1D36462" KeyPath="yes" Source="$(var.DesktopDir)\wwwroot\favicon.ico" />
+                </Component>
+                <Directory Id="DESK_dir78B1C881B6089CF784B2675F506AA737" Name="_content">
+                    <Directory Id="DESK_dir509E42F51DEEB330B47632CCE6F17E95" Name="MudBlazor">
+                        <Component Id="DESK_cmpBE8D372F8B769CC99A95960F9B37371D" Guid="{96D4DDD4-8811-4A03-B02C-0D1D559FE780}">
+                            <File Id="DESK_fil89ECD6033682E30688DDC67C5ADF6AD7" KeyPath="yes" Source="$(var.DesktopDir)\wwwroot\_content\MudBlazor\MudBlazor.min.css" />
+                        </Component>
+                        <Component Id="DESK_cmpBDE42992059FE31A5B2D24D0449073BD" Guid="{7A5EEDFB-28ED-4958-AD03-495816D4DFFF}">
+                            <File Id="DESK_fil7D95B1332B5DBED24451949B4CE84DB8" KeyPath="yes" Source="$(var.DesktopDir)\wwwroot\_content\MudBlazor\MudBlazor.min.js" />
+                        </Component>
+                    </Directory>
+                </Directory>
+            </Directory>
+            <Directory Id="DESK_dir8C5E37FA87D1897FFB78337F53EB198C" Name="zh-CN">
+                <Component Id="DESK_cmp5AB1DBD4FFF069B69D694A024FA50FBC" Guid="{11BD8155-32D2-4113-B500-0B1EB61DB84C}">
+                    <File Id="DESK_filCD9ACF492FF5BCC19173446816650DA9" KeyPath="yes" Source="$(var.DesktopDir)\zh-CN\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp6A8D9B542FBD81487CD97560B6F2C7E8" Guid="{F3DB7FE6-F674-47BD-93D1-F61F9E46EF75}">
+                    <File Id="DESK_filCBD296F7EBC5E0E23E0DC01F39FBD770" KeyPath="yes" Source="$(var.DesktopDir)\zh-CN\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+            <Directory Id="DESK_dir9F1EA0DADAA2710F788D419BCB15BCFA" Name="zh-TW">
+                <Component Id="DESK_cmpE052D231C7A1F4B447EC466D33113012" Guid="{E163223B-C43C-4200-8749-EAE65A6CB493}">
+                    <File Id="DESK_filACC0295C666BF80A0B3DD5EE2C860846" KeyPath="yes" Source="$(var.DesktopDir)\zh-TW\Microsoft.ui.xaml.dll.mui" />
+                </Component>
+                <Component Id="DESK_cmp42B2945AD5E876D9DDE1EF95B744B280" Guid="{70960AC7-6C84-4D6F-8DF7-8C32A656663D}">
+                    <File Id="DESK_filE6275B4EF3B47FBCE862FB367E6BB0BE" KeyPath="yes" Source="$(var.DesktopDir)\zh-TW\Microsoft.UI.Xaml.Phone.dll.mui" />
+                </Component>
+            </Directory>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="DesktopFiles">
+            <ComponentRef Id="DESK_cmp9B28032C37E16B28FD1E09F2B2637195" />
+            <ComponentRef Id="DESK_cmp269D78649FD9F330C5C591512326A7FF" />
+            <ComponentRef Id="DESK_cmpAED255B9519732184DE0D532AED15063" />
+            <ComponentRef Id="DESK_cmp526FB3AE9C1B64725F95EA823EE0E71D" />
+            <ComponentRef Id="DESK_cmpF595040057839ADF2721ADD93A6E0267" />
+            <ComponentRef Id="DESK_cmp1BB38A11730AE945B02AA1BFAF28A30B" />
+            <ComponentRef Id="DESK_cmp657A4267560BB8EC2FA402C0B9B899E5" />
+            <ComponentRef Id="DESK_cmpBB069E2A013205539A5DD69F77BF4C22" />
+            <ComponentRef Id="DESK_cmpBB9D3ED17127492F89E958831A3A02ED" />
+            <ComponentRef Id="DESK_cmp2F0A313AE6306F9CE5E760AF214DC789" />
+            <ComponentRef Id="DESK_cmp6D6CC90C40E2F632C9128346BA7F188F" />
+            <ComponentRef Id="DESK_cmpA76C6CFFA9DCB201D0EEDB226B0B9E25" />
+            <ComponentRef Id="DESK_cmp17959BADF0C2D7B7AB4867F09DA031B8" />
+            <ComponentRef Id="DESK_cmp3D2A78302A6149F7464B0EDCD758BCCF" />
+            <ComponentRef Id="DESK_cmp06F5AE1888C956EB1EAE32EF65C65864" />
+            <ComponentRef Id="DESK_cmp198468A4AE980CD6955CB6EB86083726" />
+            <ComponentRef Id="DESK_cmp25768D16C389D597AAEEEC4559EF8164" />
+            <ComponentRef Id="DESK_cmp2B9CD9DFD4B220B2D29045D1868F2446" />
+            <ComponentRef Id="DESK_cmp8C674FD6A69988A60A77A4CEE0F53781" />
+            <ComponentRef Id="DESK_cmp3279C150AE8DF554FD7EEE2085672A2B" />
+            <ComponentRef Id="DESK_cmpFAFA1E76C3FCC6B03C2356B7EAD0DBDB" />
+            <ComponentRef Id="DESK_cmp25B86A80BEC1AEF7AD361EB3D6BD6A4B" />
+            <ComponentRef Id="DESK_cmpD9D87FA54509AB188B8C3924AF6E3A03" />
+            <ComponentRef Id="DESK_cmp5D3FA887F5136E46E491F65D9C5460ED" />
+            <ComponentRef Id="DESK_cmp6D16CC6E020D35989F1BBCF1C1C368C6" />
+            <ComponentRef Id="DESK_cmp0839A40C3843F519D68B0BD054EBF7C1" />
+            <ComponentRef Id="DESK_cmpDB4717CBBFD23A9652DB5B136ABB5D75" />
+            <ComponentRef Id="DESK_cmp524AB317E1F1E1446096141977034717" />
+            <ComponentRef Id="DESK_cmp6809350ECDB46F5B037F2E67E18CD907" />
+            <ComponentRef Id="DESK_cmpC56A435CDB1A8C5DC24A5EE08CF973F1" />
+            <ComponentRef Id="DESK_cmp9EC4F7205246708AF18C6E38A1471159" />
+            <ComponentRef Id="DESK_cmpBD548B11860471AACE9BFBE0A66DF4CC" />
+            <ComponentRef Id="DESK_cmp50D0D033DDF559CE3530D7E6A6B100F1" />
+            <ComponentRef Id="DESK_cmp47365E3063F6CD32D2934B4B74B36C93" />
+            <ComponentRef Id="DESK_cmp70E28C3AAE545DFF3A440D53E188B72C" />
+            <ComponentRef Id="DESK_cmp762DA720D2D995D5712BA9CCDD3773BB" />
+            <ComponentRef Id="DESK_cmpA9D8D1D3751B36300BE0AD48A8574775" />
+            <ComponentRef Id="DESK_cmp734794FF3E2B890369FC6F61ABF969DA" />
+            <ComponentRef Id="DESK_cmp9300BC0EDB0F33E79D9C73185929722F" />
+            <ComponentRef Id="DESK_cmpDFE3ED7A6C8AD7262EB265F149451E4D" />
+            <ComponentRef Id="DESK_cmp79BED09A11BCFA2959BEAAAE0E80DBCF" />
+            <ComponentRef Id="DESK_cmpA4D84A707FC5521D786B31BCA5FA175A" />
+            <ComponentRef Id="DESK_cmp57D856C08E480EBC080FF86FAEB1DDA3" />
+            <ComponentRef Id="DESK_cmp6C222876D8128B51B24D36D317A7265C" />
+            <ComponentRef Id="DESK_cmp3B4A4E68A8916F10E057C64DCC9101A2" />
+            <ComponentRef Id="DESK_cmpBEAF94964CE45A7FC21FE61ABFD9BF61" />
+            <ComponentRef Id="DESK_cmp29ED12E754D8E78AB1F1768864892A6B" />
+            <ComponentRef Id="DESK_cmpFC40A96231D4742B46282E916A215F18" />
+            <ComponentRef Id="DESK_cmp391A5EE3312408C56A3CCB4C685E9542" />
+            <ComponentRef Id="DESK_cmpBE11DC195E68C4B61A03D5E224F6E301" />
+            <ComponentRef Id="DESK_cmp51410DCEF2055A404C1271320BAD8EB5" />
+            <ComponentRef Id="DESK_cmpAD6AC2F951F30234C560193BED5CE3FF" />
+            <ComponentRef Id="DESK_cmp2A2D8EE38C7FD5C54943A5F9EBC9DC93" />
+            <ComponentRef Id="DESK_cmp5369D906DD3FAD70F06836F495C2C16A" />
+            <ComponentRef Id="DESK_cmp631491BE114A9AED227FD3DD956FFCA5" />
+            <ComponentRef Id="DESK_cmpF18AC71FC2BB5B87372410046807D67F" />
+            <ComponentRef Id="DESK_cmpE106E4D2EB2AA8C92BD03751102EC8EA" />
+            <ComponentRef Id="DESK_cmp0D0EA73969C24AFE63E87AD85696F4C9" />
+            <ComponentRef Id="DESK_cmp8B21769FB0FD5CBD7787BCDA0D0A35A4" />
+            <ComponentRef Id="DESK_cmpAC3239EC74C647D5D74BD36CAA4F64EB" />
+            <ComponentRef Id="DESK_cmp0D8669A437D61758FD4375C71D74ABD4" />
+            <ComponentRef Id="DESK_cmp5A07035FA52F4F9E1424BE35CC16915F" />
+            <ComponentRef Id="DESK_cmpF29968FE27EC9EB4CD5EA07B32B5F62E" />
+            <ComponentRef Id="DESK_cmp5AEB840F1CC14A9160245DD47A8A582F" />
+            <ComponentRef Id="DESK_cmpC09E619A9E5EE4338C7192F704A1FBAE" />
+            <ComponentRef Id="DESK_cmp63CF5AF0BB00F9F7BAAD865ED057A08B" />
+            <ComponentRef Id="DESK_cmp317E2A7342DA4CA080CB2B73EE07FCFE" />
+            <ComponentRef Id="DESK_cmp008E641F81C1729BF9BBAB88A7929F3C" />
+            <ComponentRef Id="DESK_cmpFE6740F66021BBED8F590A81C66E97B9" />
+            <ComponentRef Id="DESK_cmp45423C4C62D3C8FC96EFD3D6A8BDF2C0" />
+            <ComponentRef Id="DESK_cmpDFABF29E881FA70B4FC040404E97156A" />
+            <ComponentRef Id="DESK_cmp673A5FF45CDAFAAF147DD6FEC1DFB2DD" />
+            <ComponentRef Id="DESK_cmp65E35E1ECCB6C88CBA6C753F9B6EAD2C" />
+            <ComponentRef Id="DESK_cmp7805875504899DB1967EDA97584004B5" />
+            <ComponentRef Id="DESK_cmp612A0967963D6C1925C583B6DF75363B" />
+            <ComponentRef Id="DESK_cmp701FDBE630B5C6570F2B1304CC7E3E38" />
+            <ComponentRef Id="DESK_cmp3B0A3686DEFAE476106730528914B274" />
+            <ComponentRef Id="DESK_cmp882A4DB33B9BBD57468A37B1D98591B8" />
+            <ComponentRef Id="DESK_cmp9466D0E0ABC39228F154935FF55515F6" />
+            <ComponentRef Id="DESK_cmpFBE5E60D0F1D5F1AB56F80168867AAFA" />
+            <ComponentRef Id="DESK_cmpBB812C0FFB6C0D356ACF146599B8171B" />
+            <ComponentRef Id="DESK_cmp07A663090B0A6DA88B596CABDCBA4A8A" />
+            <ComponentRef Id="DESK_cmp890502005621A4666364ABA6C9CCD72A" />
+            <ComponentRef Id="DESK_cmpB088F0C7E260E94E448DC48E0D4ACADB" />
+            <ComponentRef Id="DESK_cmpBC4FC00A26E7D32479D42D3411317FC5" />
+            <ComponentRef Id="DESK_cmpF15F86B2638D16FD271D966C7E11D202" />
+            <ComponentRef Id="DESK_cmpF5F35ADDA8EDEB6AE2B73B7D51FF1DE5" />
+            <ComponentRef Id="DESK_cmp9D611B3720C088B5143B503607979EE1" />
+            <ComponentRef Id="DESK_cmpD8955D1CF65AFD7709378BA54E68930E" />
+            <ComponentRef Id="DESK_cmp147C5FF712F50251D2EFC5854C8B7C85" />
+            <ComponentRef Id="DESK_cmp1A4E00432773E1807A73892E88F4713C" />
+            <ComponentRef Id="DESK_cmp33C30AAD37872CE4355CA33B0DDA2127" />
+            <ComponentRef Id="DESK_cmp85EE906FAD27826E64B8BAB8C7AB79E5" />
+            <ComponentRef Id="DESK_cmp4C2CC6B798D54B815104D4756261EE23" />
+            <ComponentRef Id="DESK_cmp68B65A61EF4876B66D25C42163CEFE73" />
+            <ComponentRef Id="DESK_cmp7F3F9EACFCF0C3E228B9C6AD4D048F5B" />
+            <ComponentRef Id="DESK_cmp9206F981BC72FAA8529454F6D5D03306" />
+            <ComponentRef Id="DESK_cmp2F576650BD3B33D2B9AFDD674C2C1818" />
+            <ComponentRef Id="DESK_cmpDF684F009BB39A9539952FC73FDB57DA" />
+            <ComponentRef Id="DESK_cmpB7867CE535B3ADDFE80CA91FC2539D4D" />
+            <ComponentRef Id="DESK_cmpA1711C7617051E43A032E9DCBDD227FC" />
+            <ComponentRef Id="DESK_cmp7463A7273BCC6C134931493A8B764342" />
+            <ComponentRef Id="DESK_cmpB90E2B38CF0AE373C2E61D5EA5B194C6" />
+            <ComponentRef Id="DESK_cmpAD0D33A670278D926DFB5A4164F2B5FC" />
+            <ComponentRef Id="DESK_cmpBCAC19A34A834CDC5022D612A6D6BF46" />
+            <ComponentRef Id="DESK_cmp5F0EE96CF4C3CC52F386377849348D04" />
+            <ComponentRef Id="DESK_cmpE0E292F3E412B37F31D611D860B42412" />
+            <ComponentRef Id="DESK_cmp3D5F52ED89C3E612FCEEB2CBD5763195" />
+            <ComponentRef Id="DESK_cmp912E75EA58691FB7B49864D8AEE0CBFC" />
+            <ComponentRef Id="DESK_cmpD84B194ECAA584941BE9FD823C2AD4CF" />
+            <ComponentRef Id="DESK_cmp9153216D997C2BA0162936A31FB7332F" />
+            <ComponentRef Id="DESK_cmp35090A61E8C3021004327799804FCF0E" />
+            <ComponentRef Id="DESK_cmp6257388D97FE87EA62D0A9320C8B56BB" />
+            <ComponentRef Id="DESK_cmp334D2235C26FAB53E378992AF776CD21" />
+            <ComponentRef Id="DESK_cmp78BBD25080738593531A5460BA6DC8FF" />
+            <ComponentRef Id="DESK_cmp83B53E452EC33C47892B43F4790FB403" />
+            <ComponentRef Id="DESK_cmpFE3F04A8F6EF1EF711A19B7F987A9EA6" />
+            <ComponentRef Id="DESK_cmp446493B984DAC16020890E14F5BDEF9E" />
+            <ComponentRef Id="DESK_cmp24B6C9AA392708EA32F8FA787D778CE7" />
+            <ComponentRef Id="DESK_cmp49D0978BB4049C5F7B64A311CD5C4668" />
+            <ComponentRef Id="DESK_cmp156EF4FACC15D2FA29B9A113C6B804B0" />
+            <ComponentRef Id="DESK_cmp32814F35040C0F5E0B052ABB37EE668C" />
+            <ComponentRef Id="DESK_cmp8D55D119FB18C41150A19AAAB9A72379" />
+            <ComponentRef Id="DESK_cmp9F2142F3BBD0B81B922AE7561221ECE4" />
+            <ComponentRef Id="DESK_cmpA2567E45592342D3D669055AF4F05545" />
+            <ComponentRef Id="DESK_cmp0D2FDD5B42E513558EA42C68BEC7C94E" />
+            <ComponentRef Id="DESK_cmp6F0C8EF0D5733634DE07F34F18F640A6" />
+            <ComponentRef Id="DESK_cmp011807259F7C48B6A1DF860056AD07D6" />
+            <ComponentRef Id="DESK_cmp71617248039C908601A6E563DFAD3F96" />
+            <ComponentRef Id="DESK_cmp702D9185578A95AEC68D60E00BC0AFCF" />
+            <ComponentRef Id="DESK_cmp49E9334DECFD24CB50E3641A2FBE7EC0" />
+            <ComponentRef Id="DESK_cmpBDC125ABDEE80C823629FEF521259240" />
+            <ComponentRef Id="DESK_cmpA84033671778819B027ED292CB232143" />
+            <ComponentRef Id="DESK_cmpDE6CF78AB519C1A09F78CBBA430124A7" />
+            <ComponentRef Id="DESK_cmpAF6663D486A6CF84BB01E020C61D35AF" />
+            <ComponentRef Id="DESK_cmp15C1411DFD493C28F3C997468D7AA61B" />
+            <ComponentRef Id="DESK_cmp561FF1D6671154A28046F0442CFBD6B5" />
+            <ComponentRef Id="DESK_cmp3ED5B121A87C48DD635191A0B0A6E33D" />
+            <ComponentRef Id="DESK_cmp3B357E6D0C2A33CFF3965EBC53C92D00" />
+            <ComponentRef Id="DESK_cmp5B3216070F85472832961EED6709DF6A" />
+            <ComponentRef Id="DESK_cmp6BE468D33EB608994474047A91CE13BB" />
+            <ComponentRef Id="DESK_cmp7AFEFB60FEF3584A75048ADA5FEBE1E0" />
+            <ComponentRef Id="DESK_cmp22CA014D51375E5DA361D48D1B84A661" />
+            <ComponentRef Id="DESK_cmp08B2C88499D2167580FE54D2BE749BF6" />
+            <ComponentRef Id="DESK_cmp67A081B7AE4E68C2B4316125865F0713" />
+            <ComponentRef Id="DESK_cmp46A6F82E2C8A32CD34A02D1A4F2879C8" />
+            <ComponentRef Id="DESK_cmp4FB2EEC44BC190CDA28701B15B057AAE" />
+            <ComponentRef Id="DESK_cmp6F63482EBFF02A976EBAF46286496530" />
+            <ComponentRef Id="DESK_cmpEB985383D44754B88C5D2CFF107CCBE9" />
+            <ComponentRef Id="DESK_cmpF536323EEFF853E813E578EA961BE51E" />
+            <ComponentRef Id="DESK_cmp3C38100F54BA2C3AEBDBD2F456B6F5E1" />
+            <ComponentRef Id="DESK_cmpAA182571EF0086C06ADA9B99E559806A" />
+            <ComponentRef Id="DESK_cmp738280FCC8F67381A8F35CD5E581DF8B" />
+            <ComponentRef Id="DESK_cmp786785A45DABEAB1B5E89CF35AA8861D" />
+            <ComponentRef Id="DESK_cmp9B17B0318493F7A35FC332D08A4C75EA" />
+            <ComponentRef Id="DESK_cmp75DC79B0F23EBF985BF94CD23DBD293D" />
+            <ComponentRef Id="DESK_cmpACBCA5A2A76679F33DA4494128383B04" />
+            <ComponentRef Id="DESK_cmpEFF6CF46DB7B5865C2FBB633053D43BC" />
+            <ComponentRef Id="DESK_cmpCAC2AB9758FB582A8266C1B11219C244" />
+            <ComponentRef Id="DESK_cmp8F7264A3EBA3CB58915525693FF365A1" />
+            <ComponentRef Id="DESK_cmp1AD2FFAC2DB39920371022788FE9B105" />
+            <ComponentRef Id="DESK_cmpC1D6883664B11BAF60F9085668C93484" />
+            <ComponentRef Id="DESK_cmp644712B4236B7D7BF6BA4D861E054140" />
+            <ComponentRef Id="DESK_cmp106A435F6AC0E08D987378281F102858" />
+            <ComponentRef Id="DESK_cmp0C35B8364570F343D0874D38BE4E9C44" />
+            <ComponentRef Id="DESK_cmpDB93FD9E2C16A72C09C579BADB690F0A" />
+            <ComponentRef Id="DESK_cmp2C695D9CB85C8E3E354404BE86B623D9" />
+            <ComponentRef Id="DESK_cmp420E3E58A58193BBDB9C839BE8A42703" />
+            <ComponentRef Id="DESK_cmp61A5A90D9F68EBD1462FA3B6A543155C" />
+            <ComponentRef Id="DESK_cmp95B46729A92E2A600532F4C2193F591D" />
+            <ComponentRef Id="DESK_cmp1C6CBB8D11AF274B48C70DFA67494970" />
+            <ComponentRef Id="DESK_cmp61D927E4A0D75649EF0DEE1B19148465" />
+            <ComponentRef Id="DESK_cmp1E9A9A9E2C878303956C66D94AFD9BBD" />
+            <ComponentRef Id="DESK_cmpCEAD6D141A66CA17AFFFC9C021E2B4A2" />
+            <ComponentRef Id="DESK_cmp27E3F1B85F8659EAFC560F217EC113BB" />
+            <ComponentRef Id="DESK_cmp35D29734A1E12739D370E4797A206C57" />
+            <ComponentRef Id="DESK_cmp17D1F1AFA5B374915BB5CF5057F8DDDB" />
+            <ComponentRef Id="DESK_cmpA7CF925B986451C0DDB6E277EDCF2270" />
+            <ComponentRef Id="DESK_cmpD187F8885874BFF6644BDF8697EE9081" />
+            <ComponentRef Id="DESK_cmp92A411B63FC97714EF2520E6731AE12F" />
+            <ComponentRef Id="DESK_cmp1B35511A7BC0B5FD94365D48675BB516" />
+            <ComponentRef Id="DESK_cmp309F0402130ABF5473D072964B6687D3" />
+            <ComponentRef Id="DESK_cmp4CFC76C82950D2767ACE3A6E2C700F80" />
+            <ComponentRef Id="DESK_cmpFC992BC2A5FDF62217C8B8362004966A" />
+            <ComponentRef Id="DESK_cmp8DDD27987B66D319D6741CA41BC3EF43" />
+            <ComponentRef Id="DESK_cmpFCEA5932EFD985F979EF98EBD333C4FA" />
+            <ComponentRef Id="DESK_cmp57A8ACBBCCE97B10F3C711E6E8859034" />
+            <ComponentRef Id="DESK_cmp6529AD44B95437D1B4E7D849CEFFA341" />
+            <ComponentRef Id="DESK_cmp474828C456115EF4162A1C124F36A4D5" />
+            <ComponentRef Id="DESK_cmp9283FA4AEE0F08AAB7AB87827B28DC26" />
+            <ComponentRef Id="DESK_cmp304D68A39CCA5BBA90AA0BA55D00C551" />
+            <ComponentRef Id="DESK_cmpDD4F219250A08A3487BCC283E7928CF2" />
+            <ComponentRef Id="DESK_cmp73D821BB2230F651B2C124427DA8A77D" />
+            <ComponentRef Id="DESK_cmp7FDAB49410FCFF255C65CDDFFA2DAB6B" />
+            <ComponentRef Id="DESK_cmp52C648C0C9459A3CAFEF21B96A49A346" />
+            <ComponentRef Id="DESK_cmp2F2A3BEAB7E03FE0008017A9A8182DA8" />
+            <ComponentRef Id="DESK_cmpDA39AB3686083604C183C5BD7617464D" />
+            <ComponentRef Id="DESK_cmpE7AE753BDEB101D8BC02F9D7857A687C" />
+            <ComponentRef Id="DESK_cmp5D0F639BBD864D4489033D1DCD9551A6" />
+            <ComponentRef Id="DESK_cmpC82683A110891C077C9E04F01B1AC76D" />
+            <ComponentRef Id="DESK_cmpAACB0C98F77B956256BC36F9F140FCB0" />
+            <ComponentRef Id="DESK_cmpD0ACC25E31BE34FEEC09D7B65E45B281" />
+            <ComponentRef Id="DESK_cmpF26BE1DD89B326D880BFA0DF2E93F589" />
+            <ComponentRef Id="DESK_cmp5528CADB8BAABB260833BCE9EE7E0B3D" />
+            <ComponentRef Id="DESK_cmpB4CAE77B64A58705959082D88034581B" />
+            <ComponentRef Id="DESK_cmp8397F8B473FE3CC6AB2E01E3D18F9F87" />
+            <ComponentRef Id="DESK_cmp58B2CC7498D70E97D1B6A7BEE97C1366" />
+            <ComponentRef Id="DESK_cmp90A660C19ABD2D6713C3216279929556" />
+            <ComponentRef Id="DESK_cmpEC9F4ECE25227C16F9121551E0D82A88" />
+            <ComponentRef Id="DESK_cmpEC79524FC686E75B376D33FC0D130EB9" />
+            <ComponentRef Id="DESK_cmpA8DF5D1710EE4469F54F1EB10590DFD7" />
+            <ComponentRef Id="DESK_cmpC3B5BE4379939318BD75935D2BB58180" />
+            <ComponentRef Id="DESK_cmp0B63C5311C1C95CE1C5E03E9A59E8BAB" />
+            <ComponentRef Id="DESK_cmpDEBBDB08601F0A281979027ADD4A7659" />
+            <ComponentRef Id="DESK_cmp2A008530AEEBEC5724D7A469806EAFD8" />
+            <ComponentRef Id="DESK_cmp88CECBC64450068C003C8174738CE2CF" />
+            <ComponentRef Id="DESK_cmpC593C40747B42F7799AD262CA68710B6" />
+            <ComponentRef Id="DESK_cmp74C6B78B081E11114A8223142F8CCA09" />
+            <ComponentRef Id="DESK_cmp92F1769A862A6DF823928041754BD559" />
+            <ComponentRef Id="DESK_cmp6A0B4F7EF293E06E41C275513AE33E29" />
+            <ComponentRef Id="DESK_cmp3D0B756360AF4F7515341B2E9104CC62" />
+            <ComponentRef Id="DESK_cmpEC66C8A4B874A232FB0A962993E353A0" />
+            <ComponentRef Id="DESK_cmp86E987D8881E95A8284BD8E7D3D87056" />
+            <ComponentRef Id="DESK_cmpA664B887E2282AD0FB7EA20E60F8A908" />
+            <ComponentRef Id="DESK_cmpABB3AF7B183312C1F46CCA84C718B24C" />
+            <ComponentRef Id="DESK_cmp2FD2D7FF2312009E5D4D3B76029E2E1D" />
+            <ComponentRef Id="DESK_cmp56112F608010AB0B6A985008C96F6100" />
+            <ComponentRef Id="DESK_cmp4AD2825AC83E436865E6CE2B4300AD47" />
+            <ComponentRef Id="DESK_cmp7A15D45B9700FBB856419FB70A0795EB" />
+            <ComponentRef Id="DESK_cmp8BEA94BAE41D872D91BCC4BF3FFA260A" />
+            <ComponentRef Id="DESK_cmpC522365435B07512C6A2989A0B1A53ED" />
+            <ComponentRef Id="DESK_cmp26C04945FC545F36C7E23A3D99380983" />
+            <ComponentRef Id="DESK_cmp2CFCCF682C33B43D663C7197665B1CCF" />
+            <ComponentRef Id="DESK_cmpD6F848CC21F15C9B9421F53212899195" />
+            <ComponentRef Id="DESK_cmp97CC1B41C5DCCDF0983942B9DADE90F8" />
+            <ComponentRef Id="DESK_cmp3BC58D4C785F81862499DA86190F6F69" />
+            <ComponentRef Id="DESK_cmp37F6EE400B98392AD5EA894F4CFF56F3" />
+            <ComponentRef Id="DESK_cmp25AEC064522F64D1E678D9A58E857E03" />
+            <ComponentRef Id="DESK_cmp72F689DFE5D2167FE6B4433199AC6A53" />
+            <ComponentRef Id="DESK_cmpC9D5231622366D9730F013E53B64CE97" />
+            <ComponentRef Id="DESK_cmp8A2AD1500F4D992570A0ECC98FFAF7AF" />
+            <ComponentRef Id="DESK_cmpADE971ED88D8E88C4FFBFC890340AABA" />
+            <ComponentRef Id="DESK_cmpA145FE89B37B77A3B15D608E9DC1D576" />
+            <ComponentRef Id="DESK_cmpE6E14B11CF3FCAE877190327F07F28E7" />
+            <ComponentRef Id="DESK_cmpF06A287FA634619FE9CB435CB393AB43" />
+            <ComponentRef Id="DESK_cmp9DD667DA0C6C0FE72B65B61B94997B81" />
+            <ComponentRef Id="DESK_cmpC1B318AC49F9509A2696CA63B9CAC599" />
+            <ComponentRef Id="DESK_cmpCD511138AD40BD8D7184DABDB1B91950" />
+            <ComponentRef Id="DESK_cmp44DCD41213488283DE8D7F1B8B9E1249" />
+            <ComponentRef Id="DESK_cmp9FAB48EF1940AA0D9A308AF96931FAB4" />
+            <ComponentRef Id="DESK_cmp95D9D2156895CB307B0F5B9DDA84B34A" />
+            <ComponentRef Id="DESK_cmp0A917E39C5C4033FDB5F66DED163F748" />
+            <ComponentRef Id="DESK_cmp72C5646FE8E6517A1A6B8663CCF55C8A" />
+            <ComponentRef Id="DESK_cmp966DBAAC0A5DBFC7DEF0C93230FE900E" />
+            <ComponentRef Id="DESK_cmpCAB5D7537D2909D674D6A71964F54B50" />
+            <ComponentRef Id="DESK_cmpDCB3965F4BFE410DA084689CC39B06D7" />
+            <ComponentRef Id="DESK_cmp74E9744F115A4CFC9B8137F7D86FEE2F" />
+            <ComponentRef Id="DESK_cmp99A5C851CD56BACB9BB57F29551781D5" />
+            <ComponentRef Id="DESK_cmp7B67556A319105083F63F80696146913" />
+            <ComponentRef Id="DESK_cmp6C849FE8B10CAC575D012EF7141DE60D" />
+            <ComponentRef Id="DESK_cmp2DC78845B04694B948126B6A50D234FD" />
+            <ComponentRef Id="DESK_cmp32ECE75D417B7CC224C8DEEBB2A7EF8C" />
+            <ComponentRef Id="DESK_cmp0FCFE29760305FD55FA3FFC48CE38DF7" />
+            <ComponentRef Id="DESK_cmp2B80FD86B3C8CCDF00F15D48149DC3AB" />
+            <ComponentRef Id="DESK_cmp8AA0DF3F6A64A582B166A812C5F573DA" />
+            <ComponentRef Id="DESK_cmp69A408C340D491A715F3324A4E7C8D9B" />
+            <ComponentRef Id="DESK_cmp78F5629836E3C96F8AB3C2971E2CAE04" />
+            <ComponentRef Id="DESK_cmp1951D403A669C6630A611ED4D1FDE608" />
+            <ComponentRef Id="DESK_cmpFA25F4DD76B4A694FF35232369633320" />
+            <ComponentRef Id="DESK_cmp427E4EE996A2D1114901AC7355F5A889" />
+            <ComponentRef Id="DESK_cmpB7F911663F76213AA67DDBD93FB8FFC0" />
+            <ComponentRef Id="DESK_cmp6A573805E6F545A7F37C18527646950E" />
+            <ComponentRef Id="DESK_cmpBE8D372F8B769CC99A95960F9B37371D" />
+            <ComponentRef Id="DESK_cmpBDE42992059FE31A5B2D24D0449073BD" />
+            <ComponentRef Id="DESK_cmp5AB1DBD4FFF069B69D694A024FA50FBC" />
+            <ComponentRef Id="DESK_cmp6A8D9B542FBD81487CD97560B6F2C7E8" />
+            <ComponentRef Id="DESK_cmpE052D231C7A1F4B447EC466D33113012" />
+            <ComponentRef Id="DESK_cmp42B2945AD5E876D9DDE1EF95B744B280" />
+        </ComponentGroup>
+    </Fragment>
+</Wix>

@@ -1,0 +1,105 @@
+{
+  "Enabled": {
+    "upnp-igd": true,
+    "snmp": false,
+    "dhcp-http": false,
+    "unifi": false,
+    "tplink": false,
+    "netgear": false,
+    "orbi": false,
+    "omada": false,
+    "asus": false
+  },
+  "Snmp": {
+    "Hosts": [],
+    "Community": "public",
+    "CommunityCredentialId": null,
+    "Port": 161,
+    "SnmpWalkPath": "snmpwalk",
+    "TimeoutSeconds": 3
+  },
+  "DhcpHttp": {
+    "Url": "",
+    "AuthHeader": "",
+    "AuthValue": "",
+    "AuthValueCredentialId": null
+  },
+  "Unifi": {
+    "BaseUrl": "",
+    "Site": "default",
+    "Username": "",
+    "Password": "",
+    "PasswordCredentialId": null,
+    "SkipTlsVerify": false
+  },
+  "TpLink": {
+    "Url": "",
+    "AuthHeader": "",
+    "AuthValue": "",
+    "AuthValueCredentialId": null,
+    "Format": "json",
+    "IpField": "ipAddress",
+    "MacField": "macAddress",
+    "HostField": "hostname",
+    "CsvDelimiter": ",",
+    "IpColumn": 0,
+    "MacColumn": 1,
+    "HostColumn": 2
+  },
+  "Netgear": {
+    "Url": "",
+    "AuthHeader": "",
+    "AuthValue": "",
+    "AuthValueCredentialId": null,
+    "Format": "json",
+    "IpField": "ipAddress",
+    "MacField": "macAddress",
+    "HostField": "hostname",
+    "CsvDelimiter": ",",
+    "IpColumn": 0,
+    "MacColumn": 1,
+    "HostColumn": 2
+  },
+  "Orbi": {
+    "Url": "",
+    "AuthHeader": "",
+    "AuthValue": "",
+    "AuthValueCredentialId": null,
+    "Format": "json",
+    "IpField": "ipAddress",
+    "MacField": "macAddress",
+    "HostField": "hostname",
+    "CsvDelimiter": ",",
+    "IpColumn": 0,
+    "MacColumn": 1,
+    "HostColumn": 2
+  },
+  "Omada": {
+    "Url": "",
+    "AuthHeader": "",
+    "AuthValue": "",
+    "AuthValueCredentialId": null,
+    "Format": "json",
+    "IpField": "ipAddress",
+    "MacField": "macAddress",
+    "HostField": "hostname",
+    "CsvDelimiter": ",",
+    "IpColumn": 0,
+    "MacColumn": 1,
+    "HostColumn": 2
+  },
+  "Asus": {
+    "Url": "",
+    "AuthHeader": "",
+    "AuthValue": "",
+    "AuthValueCredentialId": null,
+    "Format": "json",
+    "IpField": "ipAddress",
+    "MacField": "macAddress",
+    "HostField": "hostname",
+    "CsvDelimiter": ",",
+    "IpColumn": 0,
+    "MacColumn": 1,
+    "HostColumn": 2
+  }
+}

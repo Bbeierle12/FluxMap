@@ -1,0 +1,21 @@
+{
+  "apiBase": "http://localhost:5000",
+  "token": "",
+  "hmacSecret": "",
+  "registrationCode": "",
+  "intervalSeconds": 30,
+  "statusHost": "127.0.0.1",
+  "statusPort": 8787,
+  "enableMdns": true,
+  "enableLlmnr": true,
+  "enableSsdp": true,
+  "enableArpTable": true,
+  "arpIntervalSeconds": 60,
+  "enableDhcpLease": false,
+  "dhcpLeasePath": "/var/lib/dhcp/dhcpd.leases",
+  "updateCheckFile": "",
+  "updateCheckIntervalSeconds": 300,
+  "queueMax": 1000,
+  "batchSize": 50,
+  "batchIntervalSeconds": 2
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*" Name="NetWatch" Manufacturer="NetWatch" Version="1.0.0" Language="1033" UpgradeCode="{B0D8B710-70AF-4F8C-9FD8-7E7A7B0B04AA}">
+    <Package InstallerVersion="500" Compressed="yes" InstallScope="perMachine" />
+    <MajorUpgrade DowngradeErrorMessage="A newer version of NetWatch is already installed." />
+    <MediaTemplate />
+    <Property Id="ARPPRODUCTICON" Value="AppIcon" />
+    <Icon Id="AppIcon" SourceFile="$(var.DesktopDir)\NetWatch.Desktop.exe" />
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLFOLDER" Name="NetWatch" />
+      </Directory>
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="AppProgramMenuFolder" Name="NetWatch" />
+      </Directory>
+    </Directory>
+
+    <DirectoryRef Id="AppProgramMenuFolder">
+      <Component Id="StartMenuShortcut" Guid="{A4F25A3F-5B2F-4B9D-A0E2-6D7D77C06E9A}">
+        <Shortcut Id="NetWatchStartMenu"
+                  Name="NetWatch"
+                  Description="NetWatch Desktop"
+                  Target="[INSTALLFOLDER]NetWatch.Desktop.exe"
+                  WorkingDirectory="INSTALLFOLDER" />
+        <RemoveFolder Id="RemoveProgramMenuFolder" Directory="AppProgramMenuFolder" On="uninstall" />
+        <RegistryValue Root="HKCU" Key="Software\NetWatch" Name="installed" Type="integer" Value="1" KeyPath="yes" />
+      </Component>
+    </DirectoryRef>
+
+    <Feature Id="MainFeature" Level="1">
+      <ComponentGroupRef Id="CoreFiles" />
+      <ComponentGroupRef Id="DesktopFiles" />
+      <ComponentRef Id="StartMenuShortcut" />
+    </Feature>
+  </Product>
+</Wix>

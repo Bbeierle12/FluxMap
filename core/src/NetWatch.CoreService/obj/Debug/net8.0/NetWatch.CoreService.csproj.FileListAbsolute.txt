@@ -1,0 +1,7 @@
+C:\Users\Bbeie\NetWatch\core\src\NetWatch.CoreService\obj\Debug\net8.0\NetWatch.CoreService.csproj.AssemblyReference.cache
+C:\Users\Bbeie\NetWatch\core\src\NetWatch.CoreService\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Bbeie\NetWatch\core\src\NetWatch.CoreService\obj\Debug\net8.0\NetWatch.CoreService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bbeie\NetWatch\core\src\NetWatch.CoreService\obj\Debug\net8.0\NetWatch.CoreService.AssemblyInfoInputs.cache
+C:\Users\Bbeie\NetWatch\core\src\NetWatch.CoreService\obj\Debug\net8.0\NetWatch.CoreService.AssemblyInfo.cs
+C:\Users\Bbeie\NetWatch\core\src\NetWatch.CoreService\obj\Debug\net8.0\NetWatch.CoreService.csproj.CoreCompileInputs.cache
+C:\Users\Bbeie\NetWatch\core\src\NetWatch.CoreService\obj\Debug\net8.0\NetWatch.CoreService.MvcApplicationPartsAssemblyInfo.cache

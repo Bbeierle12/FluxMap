@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="INSTALLFOLDER">
+            <Component Id="CORE_cmpF82FCA80BBAF44D285C97F10993DEEE6" Guid="{9E10A6AA-42A9-4167-923B-1C96A1F09006}">
+                <File Id="CORE_fil840B80AC19861C7F9F04FBDCFAE331CE" KeyPath="yes" Source="$(var.CoreDir)\appsettings.json" />
+            </Component>
+            <Component Id="CORE_cmp5A61FBCBE239FEE1B8D11178A1CE3704" Guid="{A1E4765A-011C-4EC5-A790-58F3E5D46686}">
+                <File Id="CORE_filBCAFE2859113F58C5F410253F15ACAF2" KeyPath="yes" Source="$(var.CoreDir)\appsettings.Local.example.json" />
+            </Component>
+            <Component Id="CORE_cmpB14CC8B154928EA6225F174BDE107F6B" Guid="{94AF3463-F8F4-47D3-BB92-0D3F10E26F3C}">
+                <File Id="CORE_filB459F36ECC4A67FE3864BCBC2F0D640D" KeyPath="yes" Source="$(var.CoreDir)\Microsoft.Data.Sqlite.dll" />
+            </Component>
+            <Component Id="CORE_cmpFD16E629F3B1C17887ACD3B97583CB13" Guid="{5BD0519B-848C-48B5-84BD-1A18FDC4F2CB}">
+                <File Id="CORE_filEFB595E81CA62CF58EF39208C76F7F06" KeyPath="yes" Source="$(var.CoreDir)\Microsoft.Extensions.Hosting.WindowsServices.dll" />
+            </Component>
+            <Component Id="CORE_cmp08636FB9929CE3D95CC26CE9F70315B5" Guid="{62644498-41EB-436A-812F-EBE74538E3B2}">
+                <File Id="CORE_fil9023C4804B9DC5960392D1A54EF90E40" KeyPath="yes" Source="$(var.CoreDir)\NetWatch.CoreService.deps.json" />
+            </Component>
+            <Component Id="CORE_cmp8316B7ECAFE8118A5C90CB076C98538F" Guid="{CD7A9E22-9469-4B23-848C-A3E4C4A52DB3}">
+                <File Id="CORE_fil345D08694A010890D28CFFDEA77B9189" KeyPath="yes" Source="$(var.CoreDir)\NetWatch.CoreService.dll" />
+            </Component>
+            <Component Id="CORE_cmp9A14E38007D358186FDE72ABCD55F1FC" Guid="{710DCB0F-B214-4BBD-A630-3E1584F4B6C1}">
+                <File Id="CORE_filC7D5414554E5288587C25C6FB17EB2EB" KeyPath="yes" Source="$(var.CoreDir)\NetWatch.CoreService.exe" />
+            </Component>
+            <Component Id="CORE_cmpB609149E2EEF739BB8907014EB4D3A9E" Guid="{B42EB1F1-CE77-4E9F-9988-F08BA52C4B0C}">
+                <File Id="CORE_fil2890EAAED5CB076E00C56D5B0462E4EA" KeyPath="yes" Source="$(var.CoreDir)\NetWatch.CoreService.pdb" />
+            </Component>
+            <Component Id="CORE_cmpBF03FB403669CDA214510B385C974FC6" Guid="{5D1868B9-024E-4CF8-867D-BFFD1BC44AC4}">
+                <File Id="CORE_fil943B495CEACBE0D253DA67DE00E59775" KeyPath="yes" Source="$(var.CoreDir)\NetWatch.CoreService.runtimeconfig.json" />
+            </Component>
+            <Component Id="CORE_cmp0B82343B49BAA9D314863AB9313C4317" Guid="{3E44672C-A45B-4F33-B661-E66117F2F0C1}">
+                <File Id="CORE_fil4A8C7550E4A686D0C88B1D7954903C2A" KeyPath="yes" Source="$(var.CoreDir)\NetWatch.CoreService.staticwebassets.endpoints.json" />
+            </Component>
+            <Component Id="CORE_cmp64C05AA1C43E0D9DBAD9C14A66C00F23" Guid="{3B723B89-A89F-4E70-8A7C-041AA70C3428}">
+                <File Id="CORE_fil5AAF8D55B9964F995719180C0C280633" KeyPath="yes" Source="$(var.CoreDir)\SQLitePCLRaw.batteries_v2.dll" />
+            </Component>
+            <Component Id="CORE_cmp9E349E891D154ADBFB83038532027A46" Guid="{19C4A1C0-CED3-48AD-ACED-003AFE78CA5D}">
+                <File Id="CORE_fil64FA3FA0141690B101C8E041EB30B810" KeyPath="yes" Source="$(var.CoreDir)\SQLitePCLRaw.core.dll" />
+            </Component>
+            <Component Id="CORE_cmpBF8809ED33815FD076E06377CDD76FBC" Guid="{B462C66C-ABAC-406A-93A7-80CB53AB7C24}">
+                <File Id="CORE_fil56DF007369EFF5DF7AED8BD5CD383E2A" KeyPath="yes" Source="$(var.CoreDir)\SQLitePCLRaw.provider.e_sqlite3.dll" />
+            </Component>
+            <Component Id="CORE_cmp9D1519D872AF6E420B3F121C523F1D76" Guid="{36545109-8A8B-420E-80B8-2DA61AB9C068}">
+                <File Id="CORE_fil66E90D2D4495A8A6DC2B7FB12981C567" KeyPath="yes" Source="$(var.CoreDir)\System.Security.Cryptography.ProtectedData.dll" />
+            </Component>
+            <Component Id="CORE_cmp3C5190B580EDFB87D0BC5E835BB950DE" Guid="{B70AD03F-E613-43D0-937F-B465724E8673}">
+                <File Id="CORE_fil0B6369FF78F990F18A525D5F0CC6D1AB" KeyPath="yes" Source="$(var.CoreDir)\System.ServiceProcess.ServiceController.dll" />
+            </Component>
+            <Component Id="CORE_cmpB139B49DF4DF8F44C525B449EA8187F7" Guid="{C494CD17-51DB-43F0-ADD8-7CD0F9D0AB89}">
+                <File Id="CORE_filE7A3E65CC622C2E3B9B57707B12C9645" KeyPath="yes" Source="$(var.CoreDir)\web.config" />
+            </Component>
+            <Directory Id="CORE_dir58E8247E2885C01898CAD009F9EFD8BA" Name="runtimes">
+                <Directory Id="CORE_dir1316D55A8FC55CB339BC20F207B25AB2" Name="browser-wasm">
+                    <Directory Id="CORE_dirD515A5531794D80BFE72E434C05D6382" Name="nativeassets">
+                        <Directory Id="CORE_dir3F4A748245980BFD2A720282BA1D4F75" Name="net8.0">
+                            <Component Id="CORE_cmp043055CD631A35181FD8CF2684887368" Guid="{76BF0589-ABDB-4503-9BBE-62163D3D6B96}">
+                                <File Id="CORE_fil6D1DD1B1E8D9CB462F6387F90DEAB5ED" KeyPath="yes" Source="$(var.CoreDir)\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a" />
+                            </Component>
+                        </Directory>
+                    </Directory>
+                </Directory>
+                <Directory Id="CORE_dir6F75383DB633D8F130457F52F58EA410" Name="linux-arm">
+                    <Directory Id="CORE_dirDE2B6474A7AE43169B31CD69645DD47A" Name="native">
+                        <Component Id="CORE_cmpB7009B0474FB9B6971F5B3DEF75E92BD" Guid="{089FEBC6-4370-4655-B841-24A681119BF7}">
+                            <File Id="CORE_filE002D3CB3B23B1868787E964E241BFD7" KeyPath="yes" Source="$(var.CoreDir)\runtimes\linux-arm\native\libe_sqlite3.so" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="CORE_dir4368456DE80A31A0FABEF422CF868A74" Name="linux-arm64">
+                    <Directory Id="CORE_dirD4D406B0649E8BA45C0D436FC1C3D7B7" Name="native">
+                        <Component Id="CORE_cmp9610396A30E278178332CAFB8008E496" Guid="{07CDFE31-F731-4817-AFCC-2FA497BFE58A}">
+                            <File Id="CORE_filB3B8AB9E39F4DDB1DC995E05E88ECBB8" KeyPath="yes" Source="$(var.CoreDir)\runtimes\linux-arm64\native\libe_sqlite3.so" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="CORE_dir5A82E1B4CD9A0049E60DF9F72B629F26" Name="linux-armel">
+                    <Directory Id="CORE_dirD74A970094F17ABF99BEB555E46D909F" Name="native">
+                        <Component Id="CORE_cmp27A87AA75E3F85D47A0A4270EC26C4AA" Guid="{359DEE83-3027-4548-AB56-3B02F506871D}">
+                            <File Id="CORE_fil0228161978605FB6B8CF025A0DB592C8" KeyPath="yes" Source="$(var.CoreDir)\runtimes\linux-armel\native\libe_sqlite3.so" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="CORE_dir08F1499A5EC08F149FEC7D1452B8E871" Name="linux-mips64">
+                    <Directory Id="CORE_dir5CA2FC65245C76AFE89CF82A52205E7C" Name="native">
+                        <Component Id="CORE_cmp5DF8A80689066A55576FEB424E592FB3" Guid="{715C166A-ECC9-48F1-A318-CC64B1C8DCED}">
+                            <File Id="CORE_filE213347E4D10110E7F638EF6CFABACFC" KeyPath="yes" Source="$(var.CoreDir)\runtimes\linux-mips64\native\libe_sqlite3.so" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="CORE_dirA428313306DAC7804456AE497823A13C" Name="linux-musl-arm">
+                    <Directory Id="CORE_dirD76ACF565EA9B10D70DB2C8FF98995D4" Name="native">
+                        <Component Id="CORE_cmp99D95B65524BFC849377CD605BC2D914" Guid="{46B00F4D-53D5-4728-AE21-FC9F119DDE6C}">
+                            <File Id="CORE_fil49319ADF4C48D5E28D0E63C77E24A1A4" KeyPath="yes" Source="$(var.CoreDir)\runtimes\linux-musl-arm\native\libe_sqlite3.so" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="CORE_dirBFEF8EBA4AB9946902F3931E45A1DAAC" Name="linux-musl-arm64">
+                    <Directory Id="CORE_dir6063A5EA4028D1C926F2099FA576EEF6" Name="native">
+                        <Component Id="CORE_cmp6714E4DD9F6931DCC2D424E087860C40" Guid="{2B5794E6-DF4B-47E1-B32A-E4A4DF993100}">
+                            <File Id="CORE_fil79BD8821DCE84481D985A01E23B3E2A3" KeyPath="yes" Source="$(var.CoreDir)\runtimes\linux-musl-arm64\native\libe_sqlite3.so" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="CORE_dir43C41CC727670B5306674FCA0856E156" Name="linux-musl-x64">
+                    <Directory Id="CORE_dir45A4D9035B4FF6D574E71B5F5E92BDDF" Name="native">
+                        <Component Id="CORE_cmp9E9BD460222227BAE2178BA20D0D2CE9" Guid="{52E74ACF-B504-4FB6-8F27-0DF17CC56237}">
+                            <File Id="CORE_filC6026E8CF197D9CFC854B38E9F032BF7" KeyPath="yes" Source="$(var.CoreDir)\runtimes\linux-musl-x64\native\libe_sqlite3.so" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="CORE_dirECD0BBC95AFFC9DBA9C9F962A35DEFFF" Name="linux-ppc64le">
+                    <Directory Id="CORE_dir2BD906521C675BFD60DA65D8F7B02C24" Name="native">
+                        <Component Id="CORE_cmpAF2D42B950338A16DF27953B0FE03907" Guid="{5C8C9DC9-EE3B-43A8-AA94-9603F5761818}">
+                            <File Id="CORE_filB9AB18D292FF21526BC67CC08D9C17C7" KeyPath="yes" Source="$(var.CoreDir)\runtimes\linux-ppc64le\native\libe_sqlite3.so" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="CORE_dir230A8FA1033089CAF6EBAA0538709AEF" Name="linux-s390x">
+                    <Directory Id="CORE_dirE478170B124CF86212F900385E32E859" Name="native">
+                        <Component Id="CORE_cmp8D93181EDC8201D278538F0C157D2537" Guid="{61C930BE-279D-470B-A8F7-9C4F68A36232}">
+                            <File Id="CORE_filF4FBDD3EAEB685D1D12B1AEF46B0B62E" KeyPath="yes" Source="$(var.CoreDir)\runtimes\linux-s390x\native\libe_sqlite3.so" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="CORE_dir986BEF73997BE02DCDBC34E856C19B36" Name="linux-x64">
+                    <Directory Id="CORE_dirE1E651EB5B4F1522E5E10B81FEA70677" Name="native">
+                        <Component Id="CORE_cmp8F4BDFEEE9AF85C20F40DD34017FCEFE" Guid="{2343284A-BAC0-4CDE-A571-ACF3E7604CA4}">
+                            <File Id="CORE_fil65C9A12BB9BC4C6DD2573C55B28F7A47" KeyPath="yes" Source="$(var.CoreDir)\runtimes\linux-x64\native\libe_sqlite3.so" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="CORE_dirC0CA974BC478884507E349436F81698C" Name="linux-x86">
+                    <Directory Id="CORE_dir0EDA4459BC820EC0980B27A47C7CF5AA" Name="native">
+                        <Component Id="CORE_cmp327A6E270479B6EF4FC84584F0E57DD4" Guid="{ED5B52CA-3432-4692-88E5-52794565B1C7}">
+                            <File Id="CORE_filFCBC96ECC71CDC910BD5EC6E35F1FF8B" KeyPath="yes" Source="$(var.CoreDir)\runtimes\linux-x86\native\libe_sqlite3.so" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="CORE_dirD99FDB93EE0FF8EBF475D423F347AC92" Name="maccatalyst-arm64">
+                    <Directory Id="CORE_dir061EED55DBD8BA28EE353FBFFD24DFCA" Name="native">
+                        <Component Id="CORE_cmpD4529B527F857C189B1AE07EDE9F6D19" Guid="{24C5A8CB-983D-4DC5-8F8C-5E7AFAD1BFA9}">
+                            <File Id="CORE_filFD599462758D66ACD77B9F3C158F8A83" KeyPath="yes" Source="$(var.CoreDir)\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="CORE_dir725C710B19977C76374038BEBFE449A4" Name="maccatalyst-x64">
+                    <Directory Id="CORE_dir316CE79B45BEC2BDBCE1198C353C9208" Name="native">
+                        <Component Id="CORE_cmpD7662722970A0AE7E0B5E29D4A7D8274" Guid="{A4ED7A90-31F3-4DE4-97E2-4FF407622B57}">
+                            <File Id="CORE_fil873E529DBBE2B1DB5E2800DF8C613505" KeyPath="yes" Source="$(var.CoreDir)\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="CORE_dir2F16A789372805F097C242E23779E164" Name="osx-arm64">
+                    <Directory Id="CORE_dir2A5033986A8D1FF1B6E317B1A9949571" Name="native">
+                        <Component Id="CORE_cmp4B0E6F097DBB16CADE5367A2D01712F0" Guid="{9B631117-C61F-4797-9C64-AD48C2678D7D}">
+                            <File Id="CORE_fil9E86824B3127083357CEA2CADD124C06" KeyPath="yes" Source="$(var.CoreDir)\runtimes\osx-arm64\native\libe_sqlite3.dylib" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="CORE_dir42B901FB10752B2744AE05D46EAF35EC" Name="osx-x64">
+                    <Directory Id="CORE_dir71D0D403061D4DE071C64AEB774E16CF" Name="native">
+                        <Component Id="CORE_cmpD30EB815E1BB7C781EBC4B2C74DFD3A4" Guid="{FBFE4858-0C43-49F0-8420-E5ADE1BE9B87}">
+                            <File Id="CORE_fil28FF9350DD7649A23360C4913868DFA7" KeyPath="yes" Source="$(var.CoreDir)\runtimes\osx-x64\native\libe_sqlite3.dylib" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="CORE_dir9BE9104649A116CC7BCCF4D9CCD3331B" Name="win">
+                    <Directory Id="CORE_dirD19B0610952D1EE2D417EB5361695989" Name="lib">
+                        <Directory Id="CORE_dir83F1876DE08D123126E8658B6C89D603" Name="net8.0">
+                            <Component Id="CORE_cmp932BB15D247B8FEAA0D636EBE70C9160" Guid="{F454286F-5512-489D-9D3F-B31F6504B461}">
+                                <File Id="CORE_filE9AD620A904FA68BE02261BC7B7882F4" KeyPath="yes" Source="$(var.CoreDir)\runtimes\win\lib\net8.0\System.ServiceProcess.ServiceController.dll" />
+                            </Component>
+                        </Directory>
+                    </Directory>
+                </Directory>
+                <Directory Id="CORE_dir9FF0F9C1A7463CA0B24689AA89D869B5" Name="win-arm">
+                    <Directory Id="CORE_dir46754318AAFE7C2D3BBAC065B627290B" Name="native">
+                        <Component Id="CORE_cmpDF76CDFA0F073AE6CAE38BE68141B800" Guid="{5A755ED7-C207-4F41-87B0-3DF3A51D2F28}">
+                            <File Id="CORE_fil20F2F59E480B8E7CFE29DFCE5820F38B" KeyPath="yes" Source="$(var.CoreDir)\runtimes\win-arm\native\e_sqlite3.dll" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="CORE_dirFF6AADC4B618984E1542CDA5FCBD7BB1" Name="win-arm64">
+                    <Directory Id="CORE_dir65EC979D52EB501E3A656AA03EE4F2F5" Name="native">
+                        <Component Id="CORE_cmp5B80613EDA6D1987B36876340787DE50" Guid="{3BD89D77-65E3-4D1F-8C33-10D7EC993D17}">
+                            <File Id="CORE_filA441D8B3B8F271B05C97169A28079BFE" KeyPath="yes" Source="$(var.CoreDir)\runtimes\win-arm64\native\e_sqlite3.dll" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="CORE_dirB9C75524282911E40C3C964A8836A714" Name="win-x64">
+                    <Directory Id="CORE_dir1F9DF9DD2FB29AE2942604FAC206D5C4" Name="native">
+                        <Component Id="CORE_cmpA9FE95CFE68BB3A9037D1155AED6FAD7" Guid="{D2F07F4D-4757-454B-A9E3-D8BC3487FFED}">
+                            <File Id="CORE_fil0B331E0491A1A27C58D92DDCDB266DC2" KeyPath="yes" Source="$(var.CoreDir)\runtimes\win-x64\native\e_sqlite3.dll" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="CORE_dir92F336DAA82E5A629052407A3F87EF27" Name="win-x86">
+                    <Directory Id="CORE_dir2B43AAE918D399CEF13EC6CBA2D3D5EA" Name="native">
+                        <Component Id="CORE_cmp33D08136382ADFFC5979284E4701D9C6" Guid="{1DD558A9-535D-43A9-AF37-E0F8B54B2845}">
+                            <File Id="CORE_fil7A70FE8106C6D5315BF2EBA10C487BF2" KeyPath="yes" Source="$(var.CoreDir)\runtimes\win-x86\native\e_sqlite3.dll" />
+                        </Component>
+                    </Directory>
+                </Directory>
+            </Directory>
+            <Directory Id="CORE_dirA719BBB922C82B9AE03CC069680624BC" Name="ui-web">
+                <Component Id="CORE_cmpD0EB2F7E6E7A35E418B76237CFCF54B5" Guid="{DCA6F992-BB28-4107-95CD-A0BEB35C8D49}">
+                    <File Id="CORE_fil08BEC3B2394D8605118DD790A0AF6582" KeyPath="yes" Source="$(var.CoreDir)\ui-web\app.js" />
+                </Component>
+                <Component Id="CORE_cmpE3DA7E61146CE525108B6F355F3F9387" Guid="{18834401-4A39-4B08-849E-B28D4A306368}">
+                    <File Id="CORE_fil8089C2A1BB6F645059C6A706643977D6" KeyPath="yes" Source="$(var.CoreDir)\ui-web\index.html" />
+                </Component>
+                <Component Id="CORE_cmp8926FAF6AACA650FAB8F0D0EBA61C98D" Guid="{8A284D99-1181-4B39-91A1-E15B54C00C69}">
+                    <File Id="CORE_fil7EB750ECA08ECBFCDD4AF5217F5CF824" KeyPath="yes" Source="$(var.CoreDir)\ui-web\styles.css" />
+                </Component>
+            </Directory>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="CoreFiles">
+            <ComponentRef Id="CORE_cmpF82FCA80BBAF44D285C97F10993DEEE6" />
+            <ComponentRef Id="CORE_cmp5A61FBCBE239FEE1B8D11178A1CE3704" />
+            <ComponentRef Id="CORE_cmpB14CC8B154928EA6225F174BDE107F6B" />
+            <ComponentRef Id="CORE_cmpFD16E629F3B1C17887ACD3B97583CB13" />
+            <ComponentRef Id="CORE_cmp08636FB9929CE3D95CC26CE9F70315B5" />
+            <ComponentRef Id="CORE_cmp8316B7ECAFE8118A5C90CB076C98538F" />
+            <ComponentRef Id="CORE_cmp9A14E38007D358186FDE72ABCD55F1FC" />
+            <ComponentRef Id="CORE_cmpB609149E2EEF739BB8907014EB4D3A9E" />
+            <ComponentRef Id="CORE_cmpBF03FB403669CDA214510B385C974FC6" />
+            <ComponentRef Id="CORE_cmp0B82343B49BAA9D314863AB9313C4317" />
+            <ComponentRef Id="CORE_cmp64C05AA1C43E0D9DBAD9C14A66C00F23" />
+            <ComponentRef Id="CORE_cmp9E349E891D154ADBFB83038532027A46" />
+            <ComponentRef Id="CORE_cmpBF8809ED33815FD076E06377CDD76FBC" />
+            <ComponentRef Id="CORE_cmp9D1519D872AF6E420B3F121C523F1D76" />
+            <ComponentRef Id="CORE_cmp3C5190B580EDFB87D0BC5E835BB950DE" />
+            <ComponentRef Id="CORE_cmpB139B49DF4DF8F44C525B449EA8187F7" />
+            <ComponentRef Id="CORE_cmp043055CD631A35181FD8CF2684887368" />
+            <ComponentRef Id="CORE_cmpB7009B0474FB9B6971F5B3DEF75E92BD" />
+            <ComponentRef Id="CORE_cmp9610396A30E278178332CAFB8008E496" />
+            <ComponentRef Id="CORE_cmp27A87AA75E3F85D47A0A4270EC26C4AA" />
+            <ComponentRef Id="CORE_cmp5DF8A80689066A55576FEB424E592FB3" />
+            <ComponentRef Id="CORE_cmp99D95B65524BFC849377CD605BC2D914" />
+            <ComponentRef Id="CORE_cmp6714E4DD9F6931DCC2D424E087860C40" />
+            <ComponentRef Id="CORE_cmp9E9BD460222227BAE2178BA20D0D2CE9" />
+            <ComponentRef Id="CORE_cmpAF2D42B950338A16DF27953B0FE03907" />
+            <ComponentRef Id="CORE_cmp8D93181EDC8201D278538F0C157D2537" />
+            <ComponentRef Id="CORE_cmp8F4BDFEEE9AF85C20F40DD34017FCEFE" />
+            <ComponentRef Id="CORE_cmp327A6E270479B6EF4FC84584F0E57DD4" />
+            <ComponentRef Id="CORE_cmpD4529B527F857C189B1AE07EDE9F6D19" />
+            <ComponentRef Id="CORE_cmpD7662722970A0AE7E0B5E29D4A7D8274" />
+            <ComponentRef Id="CORE_cmp4B0E6F097DBB16CADE5367A2D01712F0" />
+            <ComponentRef Id="CORE_cmpD30EB815E1BB7C781EBC4B2C74DFD3A4" />
+            <ComponentRef Id="CORE_cmp932BB15D247B8FEAA0D636EBE70C9160" />
+            <ComponentRef Id="CORE_cmpDF76CDFA0F073AE6CAE38BE68141B800" />
+            <ComponentRef Id="CORE_cmp5B80613EDA6D1987B36876340787DE50" />
+            <ComponentRef Id="CORE_cmpA9FE95CFE68BB3A9037D1155AED6FAD7" />
+            <ComponentRef Id="CORE_cmp33D08136382ADFFC5979284E4701D9C6" />
+            <ComponentRef Id="CORE_cmpD0EB2F7E6E7A35E418B76237CFCF54B5" />
+            <ComponentRef Id="CORE_cmpE3DA7E61146CE525108B6F355F3F9387" />
+            <ComponentRef Id="CORE_cmp8926FAF6AACA650FAB8F0D0EBA61C98D" />
+        </ComponentGroup>
+    </Fragment>
+</Wix>

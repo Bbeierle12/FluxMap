@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NetWatch</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar left">
+      <div class="brand">NetWatch</div>
+      <div class="section">
+        <div class="section-title">Filters</div>
+        <input class="input" id="searchInput" placeholder="Search devices" />
+        <select class="input" id="filterType"></select>
+        <select class="input" id="filterVendor"></select>
+        <select class="input" id="filterStatus">
+          <option value="">All status</option>
+          <option value="online">Online</option>
+          <option value="offline">Offline</option>
+        </select>
+      </div>
+      <div class="section">
+        <div class="section-title">Views</div>
+        <div class="nav-item active" data-view="map">Map</div>
+        <div class="nav-item" data-view="devices">Devices</div>
+        <div class="nav-item" data-view="timeline">Timeline</div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div class="title">Network Map</div>
+        <div class="actions">
+          <button class="btn">Rescan</button>
+          <button class="btn">Settings</button>
+        </div>
+      </header>
+      <section class="canvas-wrap view" data-view="map">
+        <canvas id="netCanvas"></canvas>
+      </section>
+      <section class="view hidden" data-view="timeline">
+        <div class="timeline-controls">
+          <select class="input" id="eventFilter">
+            <option value="">All events</option>
+            <option value="join">Join</option>
+            <option value="leave">Leave</option>
+          </select>
+        </div>
+        <div id="eventTimeline" class="timeline timeline-full"></div>
+      </section>
+      <section class="view hidden" data-view="devices">
+        <div class="devices-table" id="devicesTable"></div>
+      </section>
+    </main>
+
+    <aside class="sidebar right">
+      <div class="section">
+        <div class="section-title">Network Summary</div>
+        <div class="meta" id="networkSummary">Loading...</div>
+      </div>
+      <div class="section">
+        <div class="section-title">Selected Device</div>
+        <div class="device-name" id="deviceName">None</div>
+        <div class="meta" id="deviceMeta">Select a node to view details.</div>
+        <div class="meta" id="deviceEvidence"></div>
+        <div class="section-title">Device Timeline</div>
+        <div id="deviceTimeline" class="timeline"></div>
+        <div class="section-title">Classification</div>
+        <div class="meta" id="deviceClassification"></div>
+        <div class="section-title">Risk</div>
+        <div class="meta" id="deviceRisk"></div>
+        <div class="section-title">Device Stats (24h)</div>
+        <div class="meta" id="deviceStats"></div>
+        <div class="section-title">Device Signals</div>
+        <div class="meta" id="deviceSignals"></div>
+        <div class="section-title">IP/MAC History</div>
+        <div class="meta" id="deviceHistory"></div>
+      </div>
+      <div class="section">
+        <div class="section-title">Live Timeline</div>
+        <div id="timeline" class="timeline"></div>
+      </div>
+      <div class="section">
+        <div class="section-title">Connectors</div>
+        <div class="settings-grid">
+          <label class="label">Enable UPnP IGD</label>
+          <input class="checkbox" id="connUpnp" type="checkbox" />
+          <label class="label">Enable SNMP</label>
+          <input class="checkbox" id="connSnmp" type="checkbox" />
+          <label class="label">Enable DHCP HTTP</label>
+          <input class="checkbox" id="connDhcp" type="checkbox" />
+          <label class="label">Enable UniFi</label>
+          <input class="checkbox" id="connUnifi" type="checkbox" />
+          <label class="label">Enable TP-Link</label>
+          <input class="checkbox" id="connTpLink" type="checkbox" />
+          <label class="label">Enable Netgear</label>
+          <input class="checkbox" id="connNetgear" type="checkbox" />
+          <label class="label">Enable Orbi</label>
+          <input class="checkbox" id="connOrbi" type="checkbox" />
+          <label class="label">Enable Omada</label>
+          <input class="checkbox" id="connOmada" type="checkbox" />
+          <label class="label">Enable Asus</label>
+          <input class="checkbox" id="connAsus" type="checkbox" />
+          <label class="label">SNMP hosts</label>
+          <input class="input" id="snmpHosts" placeholder="192.168.1.1,192.168.1.2" />
+          <label class="label">SNMP community</label>
+          <input class="input" id="snmpCommunity" placeholder="public" />
+          <label class="label">SNMP community credential</label>
+          <select class="input" id="snmpCommunityCred"></select>
+          <label class="label">SNMP port</label>
+          <input class="input" id="snmpPort" type="number" min="1" max="65535" />
+          <label class="label">snmpwalk path</label>
+          <input class="input" id="snmpWalkPath" placeholder="snmpwalk" />
+          <label class="label">SNMP timeout (sec)</label>
+          <input class="input" id="snmpTimeout" type="number" min="1" max="15" />
+          <label class="label">DHCP HTTP URL</label>
+          <input class="input" id="dhcpUrl" placeholder="http://router/api/leases" />
+          <label class="label">DHCP auth header</label>
+          <input class="input" id="dhcpHeader" placeholder="Authorization" />
+          <label class="label">DHCP auth value</label>
+          <input class="input" id="dhcpAuthValue" placeholder="Bearer ..." />
+          <label class="label">DHCP auth credential</label>
+          <select class="input" id="dhcpAuthCred"></select>
+          <label class="label">UniFi base URL</label>
+          <input class="input" id="unifiBaseUrl" placeholder="https://unifi.local:8443" />
+          <label class="label">UniFi site</label>
+          <input class="input" id="unifiSite" placeholder="default" />
+          <label class="label">UniFi username</label>
+          <input class="input" id="unifiUser" />
+          <label class="label">UniFi password</label>
+          <input class="input" id="unifiPass" type="password" />
+          <label class="label">UniFi password credential</label>
+          <select class="input" id="unifiPassCred"></select>
+          <label class="label">Skip TLS verify</label>
+          <input class="checkbox" id="unifiSkipTls" type="checkbox" />
+          <label class="label">TP-Link lease URL</label>
+          <input class="input" id="tplinkUrl" placeholder="http://router/leases" />
+          <label class="label">TP-Link auth header</label>
+          <input class="input" id="tplinkHeader" placeholder="Authorization" />
+          <label class="label">TP-Link auth value</label>
+          <input class="input" id="tplinkAuthValue" placeholder="Bearer ..." />
+          <label class="label">TP-Link auth credential</label>
+          <select class="input" id="tplinkAuthCred"></select>
+          <label class="label">TP-Link format</label>
+          <select class="input" id="tplinkFormat">
+            <option value="json">json</option>
+            <option value="csv">csv</option>
+            <option value="keyvalue">keyvalue</option>
+          </select>
+          <label class="label">TP-Link JSON fields (ip/mac/host)</label>
+          <input class="input" id="tplinkFields" placeholder="ipAddress,macAddress,hostname" />
+          <label class="label">TP-Link CSV columns (ip,mac,host)</label>
+          <input class="input" id="tplinkCols" placeholder="0,1,2" />
+          <label class="label">Netgear lease URL</label>
+          <input class="input" id="netgearUrl" placeholder="http://router/leases" />
+          <label class="label">Netgear auth header</label>
+          <input class="input" id="netgearHeader" placeholder="Authorization" />
+          <label class="label">Netgear auth value</label>
+          <input class="input" id="netgearAuthValue" placeholder="Bearer ..." />
+          <label class="label">Netgear auth credential</label>
+          <select class="input" id="netgearAuthCred"></select>
+          <label class="label">Netgear format</label>
+          <select class="input" id="netgearFormat">
+            <option value="json">json</option>
+            <option value="csv">csv</option>
+            <option value="keyvalue">keyvalue</option>
+          </select>
+          <label class="label">Netgear JSON fields (ip/mac/host)</label>
+          <input class="input" id="netgearFields" placeholder="ipAddress,macAddress,hostname" />
+          <label class="label">Netgear CSV columns (ip,mac,host)</label>
+          <input class="input" id="netgearCols" placeholder="0,1,2" />
+          <label class="label">Orbi lease URL</label>
+          <input class="input" id="orbiUrl" placeholder="http://router/leases" />
+          <label class="label">Orbi auth header</label>
+          <input class="input" id="orbiHeader" placeholder="Authorization" />
+          <label class="label">Orbi auth value</label>
+          <input class="input" id="orbiAuthValue" placeholder="Bearer ..." />
+          <label class="label">Orbi auth credential</label>
+          <select class="input" id="orbiAuthCred"></select>
+          <label class="label">Orbi format</label>
+          <select class="input" id="orbiFormat">
+            <option value="json">json</option>
+            <option value="csv">csv</option>
+            <option value="keyvalue">keyvalue</option>
+          </select>
+          <label class="label">Orbi JSON fields (ip/mac/host)</label>
+          <input class="input" id="orbiFields" placeholder="ipAddress,macAddress,hostname" />
+          <label class="label">Orbi CSV columns (ip,mac,host)</label>
+          <input class="input" id="orbiCols" placeholder="0,1,2" />
+          <label class="label">Omada lease URL</label>
+          <input class="input" id="omadaUrl" placeholder="http://controller/leases" />
+          <label class="label">Omada auth header</label>
+          <input class="input" id="omadaHeader" placeholder="Authorization" />
+          <label class="label">Omada auth value</label>
+          <input class="input" id="omadaAuthValue" placeholder="Bearer ..." />
+          <label class="label">Omada auth credential</label>
+          <select class="input" id="omadaAuthCred"></select>
+          <label class="label">Omada format</label>
+          <select class="input" id="omadaFormat">
+            <option value="json">json</option>
+            <option value="csv">csv</option>
+            <option value="keyvalue">keyvalue</option>
+          </select>
+          <label class="label">Omada JSON fields (ip/mac/host)</label>
+          <input class="input" id="omadaFields" placeholder="ipAddress,macAddress,hostname" />
+          <label class="label">Omada CSV columns (ip,mac,host)</label>
+          <input class="input" id="omadaCols" placeholder="0,1,2" />
+          <label class="label">Asus lease URL</label>
+          <input class="input" id="asusUrl" placeholder="http://router/leases" />
+          <label class="label">Asus auth header</label>
+          <input class="input" id="asusHeader" placeholder="Authorization" />
+          <label class="label">Asus auth value</label>
+          <input class="input" id="asusAuthValue" placeholder="Bearer ..." />
+          <label class="label">Asus auth credential</label>
+          <select class="input" id="asusAuthCred"></select>
+          <label class="label">Asus format</label>
+          <select class="input" id="asusFormat">
+            <option value="json">json</option>
+            <option value="csv">csv</option>
+            <option value="keyvalue">keyvalue</option>
+          </select>
+          <label class="label">Asus JSON fields (ip/mac/host)</label>
+          <input class="input" id="asusFields" placeholder="ipAddress,macAddress,hostname" />
+          <label class="label">Asus CSV columns (ip,mac,host)</label>
+          <input class="input" id="asusCols" placeholder="0,1,2" />
+        </div>
+        <button class="btn settings-btn" id="saveConnectors">Save connectors</button>
+        <div class="meta" id="connectorsStatus"></div>
+        <div class="meta" id="connectorsState"></div>
+        <div class="meta" id="fingerprintStatus"></div>
+        <div class="divider"></div>
+        <div class="section-title">Credentials</div>
+        <div class="settings-grid">
+          <label class="label">Name</label>
+          <input class="input" id="credName" placeholder="Router SNMP" />
+          <label class="label">Purpose</label>
+          <input class="input" id="credPurpose" placeholder="snmp-community" />
+          <label class="label">Secret</label>
+          <input class="input" id="credSecret" type="password" />
+        </div>
+        <button class="btn settings-btn" id="createCred">Create credential</button>
+        <div class="meta" id="credStatus"></div>
+        <div class="section-title">Stored Credentials</div>
+        <div id="credList" class="timeline"></div>
+      </div>
+      <div class="section">
+        <div class="section-title">Settings</div>
+        <div class="settings-grid">
+          <label class="label">Scan interval (sec)</label>
+          <input class="input" id="scanInterval" type="number" min="10" max="3600" />
+          <label class="label">Ping timeout (ms)</label>
+          <input class="input" id="pingTimeout" type="number" min="100" max="5000" />
+          <label class="label">TCP timeout (ms)</label>
+          <input class="input" id="tcpTimeout" type="number" min="100" max="5000" />
+          <label class="label">Max concurrent pings</label>
+          <input class="input" id="maxPings" type="number" min="1" max="256" />
+          <label class="label">Max hosts per subnet</label>
+          <input class="input" id="maxHosts" type="number" min="16" max="65535" />
+          <label class="label">TCP ports</label>
+          <input class="input" id="tcpPorts" placeholder="22,80,443" />
+          <label class="label">Enable SSDP</label>
+          <input class="checkbox" id="enableSsdp" type="checkbox" />
+        </div>
+        <button class="btn settings-btn" id="saveSettings">Save settings</button>
+        <div class="meta" id="settingsStatus"></div>
+      </div>
+      <div class="section">
+        <div class="section-title">Devices</div>
+        <div id="deviceList" class="device-list"></div>
+      </div>
+    </aside>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

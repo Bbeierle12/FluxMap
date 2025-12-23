@@ -1,0 +1,15 @@
+Components\_Imports.razor
+Components\App.razor
+Components\Layout\MainLayout.razor
+Components\Layout\NavMenu.razor
+Components\MyMudProviders.razor
+Components\MyMudThemeProvider.razor
+Components\Pages\Counter.razor
+Components\Pages\Error.razor
+Components\Pages\Home.razor
+Components\Pages\Weather.razor
+Components\Routes.razor
+NetWatch.Desktop.staticwebassets.endpoints.json
+NetWatch.Desktop.staticwebassets.runtime.json
+wwwroot\app.css
+wwwroot\favicon.ico

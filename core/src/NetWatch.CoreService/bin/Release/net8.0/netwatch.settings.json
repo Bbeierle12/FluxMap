@@ -1,0 +1,20 @@
+{
+  "ScanIntervalSeconds": 60,
+  "PingTimeoutMs": 800,
+  "TcpConnectTimeoutMs": 300,
+  "MaxConcurrentPings": 64,
+  "MaxHostsPerSubnet": 1024,
+  "EnableSsdp": true,
+  "TcpPorts": [
+    22,
+    23,
+    80,
+    443,
+    445,
+    554,
+    8000,
+    8080,
+    8443,
+    3389
+  ]
+}
